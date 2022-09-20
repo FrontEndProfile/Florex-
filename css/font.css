@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../font/Gilroy-Light.woff2") format("woff2"), url("../font/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../font/Gilroy-ExtraBold.woff2") format("woff2"), url("../font/Gilroy-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "graphik_lcg_bold";
+  src: url("../font/graphiklcg-bold-webfont.woff2") format("woff2"), url("../font/graphiklcg-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "graphik_lcg_light";
+  src: url("../font/graphiklcg-light-webfont.woff2") format("woff2"), url("../font/graphiklcg-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "graphik_lcg_medium";
+  src: url("../font/graphiklcg-medium-webfont.woff2") format("woff2"), url("../font/graphiklcg-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "graphik_lcg_regular";
+  src: url("../font/graphiklcg-regular-webfont.woff2") format("woff2"), url("../font/graphiklcg-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=font.css.map */

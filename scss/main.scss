@@ -1,0 +1,133 @@
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ========================== -FONTS- ================================
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../font/Gilroy-Light.woff2') format('woff2'),
+    url('../font/Gilroy-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('../font/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../font/Gilroy-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'graphik_lcg_bold';
+  src: url('../font/graphiklcg-bold-webfont.woff2') format('woff2'),
+    url('../font/graphiklcg-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'graphik_lcg_light';
+  src: url('../font/graphiklcg-light-webfont.woff2') format('woff2'),
+    url('../font/graphiklcg-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'graphik_lcg_medium';
+  src: url('../font/graphiklcg-medium-webfont.woff2') format('woff2'),
+    url('../font/graphiklcg-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'graphik_lcg_regular';
+  src: url('../font/graphiklcg-regular-webfont.woff2') format('woff2'),
+    url('../font/graphiklcg-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ========================== -VAR- ==================================
+$Gilroy__Light: 'Gilroy-Light';
+$Gilroy__ExtraBold: 'Gilroy-ExtraBold';
+$graphik_lcg_bold: 'graphik_lcg_bold';
+$graphik_lcg_light: 'graphik_lcg_light';
+$graphik_lcg_medium: 'graphik_lcg_medium';
+$graphik_lcg_regular: 'graphik_lcg_regular';
+
+.Gilroy__Light {font-family: $Gilroy__Light;}
+.Gilroy__ExtraBold {font-family: $Gilroy__ExtraBold;}
+.graphik_lcg_bold {font-family: $graphik_lcg_bold;}
+.graphik_lcg_light {font-family: $graphik_lcg_light;}
+.graphik_lcg_medium {font-family: $graphik_lcg_medium;}
+.graphik_lcg_regular {font-family: $graphik_lcg_regular;}
+// ===================================================================
+// ========================== -FIXES- ================================
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2
+}
+.btn {
+  box-shadow: none;
+}
+*,body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $graphik_lcg_medium;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+// ===================================================================
+// ===================================================================
+// ===================================================================
+// ====================== HEADER =====================================
+header {
+}
+.nav__top {
+  padding: 20px 40px;
+  
+}
+// ===================================================================
+// ===================================================================
+// ===================================================================
