@@ -1,0 +1,166 @@
+@media (max-width: 1710px) { 
+    .nav__bottom .navbar-nav {
+        padding-left: 4.2rem;
+        padding-right: 1.8rem;
+    }
+    .nav__bottom .search__bar, .nav__bottom .flag__bar, .nav__bottom .shopping__bar {
+        width: 10.4rem;
+    }
+    .nav__bottom .shopping__bar {
+        width: 20.1rem;
+    }
+}
+@media (max-width: 1610px) { 
+    .nav__bottom .navbar-brand {
+        width: 17rem;
+    }
+    .nav__bottom .navbar-brand img {
+        width: 85px;
+    }
+    .nav__bottom .navbar-nav .nav-item .nav-link {
+        margin-right: 2rem;
+    }
+    .nav__bottom .search__bar, .nav__bottom .flag__bar, .nav__bottom .shopping__bar {
+        width: 8.4rem;
+    }
+    .nav__bottom .shopping__bar {
+        width: 18.1rem;
+    }
+}
+@media (max-width: 1510px) { 
+    .nav__bottom .navbar-brand {
+        width: 13rem;
+         img {
+            width: 75px;
+        }
+    }
+    .nav__bottom .navbar-nav {
+        padding-left: 2.2rem;
+        padding-right: 0.8rem;
+    }
+    .nav__bottom .navbar-nav .nav-item .nav-link {
+        margin-right: 1.3rem;
+    }
+    .nav__bottom .search__bar {
+        width: 7.4rem;
+        svg {
+            width: 24px;
+        }
+    }
+    .nav__bottom .shopping__bar .buy__bar {
+        position: relative;
+        margin-right: 1.2rem;
+    }
+    .nav__bottom .flag__bar .dropdown-toggle .dropdown__img {
+        width: 28px;
+        height: 28px;
+        margin-right: 1.1rem;
+    }
+    .nav__bottom .flag__bar .dropdown-toggle .dropdown__text {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1400px) {
+    *{ transition: 0.3s all;}
+    .nav__bottom .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1285px) {
+    *{ transition: 0.3s all;}
+    .nav__bottom .search__bar {
+        width: 4.9rem;
+    }
+    .nav__bottom .shopping__bar {
+        width: 14.1rem;
+        padding-right: 10px;
+    }
+    .nav__bottom .navbar-brand {
+        width: 11rem;
+    }
+}
+@media (max-width: 1200px) {
+    .nav__bottom {
+        .navbar-expand-lg .navbar-collapse {
+            flex-wrap: wrap;
+        }
+        .navbar-expand-lg .navbar-collapse.h-100 {
+            height: 70% !important;
+            .navbar-nav  {
+                height: auto !important;
+            }
+        }
+    }
+    .nav__bottom .navbar-nav {
+        width: 100%;
+    }
+    .nav__bottom .flag__bar {
+        margin: 0 4rem;
+        border: none;
+    }
+    .nav__bottom .shopping__bar {
+        width: 17rem;
+        padding-right: 0px;
+        border: none;
+    }
+    .nav__bottom .search__bar {
+        width: 6.9rem;
+        border: none;
+    }
+
+    .nav__top .navbar-nav .nav-item:nth-child(1) {
+        width: 17.7rem;
+    }
+    .nav__top .navbar-nav .nav-item:nth-child(2) {
+        width: 9.1rem;
+    }
+    .nav__top .navbar-nav .nav-item:nth-child(3) {
+        width: 11.5rem;
+    }
+    .nav__top .navbar-nav .right .nav-item:nth-child(1) {
+        width: 20rem;
+        a {
+            border-left: none;
+        }
+    }
+    .nav__top .navbar-nav .right .nav-item:nth-child(2) {
+        width: 17.6rem;
+    }
+    .nav__top .navbar-nav .right .nav-item:nth-child(3) {
+        width: 18rem;
+    }
+}
+@media (max-width: 991px) {
+    header {
+        height: 99px;
+        border-bottom: 1px solid #E0E1EE;
+        .mobo {
+            .brand {
+                display: inline-block;
+                width: 14rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                background: white;
+                border-right: 1px solid #E0E1EE;
+                img {
+                    width: 7.9rem;
+                }
+
+            }
+            .mobo__shopping {
+              height: 100%;
+              border-left: 1px solid #E0E1EE;
+              display: flex;
+              .shopping__bar {
+                height: auto;
+                align-items: center;
+                justify-content: center;
+                width: 19.5rem;
+              }
+            }    
+        }
+    }
+}
+
