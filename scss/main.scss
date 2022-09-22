@@ -175,6 +175,28 @@ body {
   padding-right: 0;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff #6667AB;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #6667AB;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #b0b0b0e7;
+  }
+
 // ===================================================================
 // ===================================================================
 // ===================================================================
@@ -864,8 +886,9 @@ footer {
   background: #6667AB;
   padding: 3.4rem 8.1rem;
   .footer__logo {
-    width: 18rem;
+    width: 20rem;
     margin-bottom: 2.2rem;
+    margin-left: -1.5rem;
   }
   .footer__media_link {
     display: flex;
@@ -880,6 +903,7 @@ height: 29px;
   .footer__media_card {
     display: flex;
     align-items: center;
+    
     li {
       width: 61px;
       margin-right: 1.1rem;
@@ -893,5 +917,47 @@ font-size: 14px;
 line-height: 160%;
 color: #FFFFFF;
 
+  }
+  .footer__menu {
+    font-family: $graphik_lcg_light;
+    font-weight: 300;
+font-size: 25px;
+line-height: 90%;
+/* or 22px */
+margin: 0;
+
+letter-spacing: -0.05em;
+margin-bottom: 3rem;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+  }
+  .footer__menu_list {
+    li {
+margin-bottom: 1rem;
+
+      a {
+        font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+/* or 22px */
+
+
+color: #FFFFFF;
+&:hover {
+  color: #aba2ffcb !important;
+}
+      }
+    }
+  }
+  .footer__inner_m {
+    margin-top: 3rem;
+  }
+  .tapy {
+    
+    li {
+      margin-right: 7.3rem;
+    }
   }
 }

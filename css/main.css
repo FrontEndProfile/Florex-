@@ -124,6 +124,28 @@ body {
   padding-right: 0;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ffffff #6667AB;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #6667AB;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(176, 176, 176, 0.9058823529);
+}
+
 header {
   height: 166px;
 }
@@ -690,8 +712,9 @@ footer {
   padding: 3.4rem 8.1rem;
 }
 footer .footer__logo {
-  width: 18rem;
+  width: 20rem;
   margin-bottom: 2.2rem;
+  margin-left: -1.5rem;
 }
 footer .footer__media_link {
   display: flex;
@@ -718,4 +741,35 @@ footer .footer__invent {
   font-size: 14px;
   line-height: 160%;
   color: #FFFFFF;
+}
+footer .footer__menu {
+  font-family: "graphik_lcg_light";
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 90%;
+  /* or 22px */
+  margin: 0;
+  letter-spacing: -0.05em;
+  margin-bottom: 3rem;
+  /* #FFFFFF */
+  color: #FFFFFF;
+}
+footer .footer__menu_list li {
+  margin-bottom: 1rem;
+}
+footer .footer__menu_list li a {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  /* or 22px */
+  color: #FFFFFF;
+}
+footer .footer__menu_list li a:hover {
+  color: rgba(171, 162, 255, 0.7960784314) !important;
+}
+footer .footer__inner_m {
+  margin-top: 3rem;
+}
+footer .tapy li {
+  margin-right: 7.3rem;
 }/*# sourceMappingURL=main.css.map */
