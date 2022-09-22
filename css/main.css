@@ -431,31 +431,29 @@ header {
   width: 100%;
   overflow: hidden;
 }
-.hero .hero__layout {
-  max-width: 1540px;
-  margin-left: auto;
-  margin-right: auto;
+
+.hero__layout {
   height: 600px;
   background-image: url(../images/banner.webp);
   background-size: cover;
   border-radius: 10px;
   position: relative;
 }
-.hero .hero__layout::before {
+.hero__layout::before {
   content: "";
   border-radius: 10px;
   position: absolute;
   inset: 0;
   background: linear-gradient(90deg, #6667AB 29.85%, rgba(102, 103, 171, 0) 100%);
 }
-.hero .hero__layout .hero__layer {
+.hero__layout .hero__layer {
   position: relative;
   height: 100%;
   display: flex;
   padding-left: 8.4rem;
   padding-top: 10.4rem;
 }
-.hero .hero__layout .hero__tittle {
+.hero__layout .hero__tittle {
   font-size: 102px;
   line-height: 90%;
   letter-spacing: -0.05em;
@@ -463,14 +461,14 @@ header {
   margin-bottom: 4.2rem;
   color: #FFFFFF;
 }
-.hero .hero__layout .hero__text {
+.hero__layout .hero__text {
   font-weight: 300;
   font-size: 18px;
   line-height: 160%;
   color: #FFFFFF;
   margin-bottom: 5.6rem;
 }
-.hero .hero__layout .hero__btn {
+.hero__layout .hero__btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -482,20 +480,17 @@ header {
   padding-right: 3rem;
   color: #FFFFFF !important;
 }
-.hero .hero__layout .hero__btn span {
+.hero__layout .hero__btn span {
   width: 19px;
 }
-.hero .hero__layout .hero__btn:hover {
+.hero__layout .hero__btn:hover {
   color: #bdbfda !important;
 }
-.hero .hero__layout .hero__btn:hover span {
+.hero__layout .hero__btn:hover span {
   margin-right: -8px;
 }
 
 .sub__cards .sub__cards__layout {
-  max-width: 1540px;
-  margin-left: auto;
-  margin-right: auto;
   height: 11.2rem;
   border-top: 1px solid rgba(102, 103, 171, 0.3);
   border-bottom: 1px solid rgba(102, 103, 171, 0.3);
@@ -520,18 +515,15 @@ header {
 .cards {
   margin: 8rem auto;
 }
-.cards .cards__layout {
-  max-width: 1540px;
-  margin-left: auto;
-  margin-right: auto;
+.cards .cards__layout .grids__cards .e {
+  padding-right: 4rem;
 }
 .cards .cards__layout .grids__cards .card {
   width: 100%;
   border-radius: 10px;
   border: none;
   margin-top: 6rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-bottom: 6rem;
 }
 .cards .cards__layout .grids__cards .card .card__img {
   margin-bottom: 3rem;
@@ -575,7 +567,155 @@ header {
 .cards .cards__layout .grids__cards .card .card__info .card__info_arrow svg {
   fill: white;
 }
-.cards .cards__layout .grids__cards .totta {
-  width: 618px;
-  margin-left: auto;
+.cards .cards__layout .grids__cards .top__ {
+  margin-top: -9rem;
+}
+
+.section__tittle .section__heading {
+  font-family: "graphik_lcg_light";
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #000000;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.section__tittle .section__heading span {
+  color: #9F9F9F;
+}
+
+.pe_2 {
+  padding-right: 2rem;
+}
+
+.ps_2 {
+  padding-left: 2rem;
+}
+
+.three__cards {
+  margin-top: 8rem;
+}
+.three__cards .hero__layout {
+  height: fit-content;
+}
+.three__cards .hero__layout .hero__layer {
+  padding-left: 5.1rem;
+  padding-right: 2rem;
+  padding-top: 9.1rem;
+}
+.three__cards .hero__layout.fif {
+  margin-bottom: 8rem;
+}
+.three__cards .hero__layout.fif .hero__tittle {
+  font-family: "graphik_lcg_light";
+  margin-bottom: 5.1rem;
+}
+.three__cards .hero__layout.fif .hero__tittle .hero__tittle__fif {
+  font-family: "graphik_lcg_light";
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 90%;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+.three__cards .hero__layout.fif .hero__tittle .discount {
+  font-size: 112px;
+  line-height: 90%;
+  font-family: "graphik_lcg_light";
+  font-weight: 300;
+  margin-right: 15px;
+}
+.three__cards .hero__layout.big {
+  height: 695px;
+}
+.three__cards .hero__layout.big .hero__layer {
+  padding-top: 10.9rem;
+  padding-left: 8.4rem;
+}
+.three__cards .hero__layout.big .hero__tittle {
+  font-family: "graphik_lcg_light";
+  font-weight: 300;
+  font-size: 102px;
+  line-height: 90%;
+  margin-bottom: 3rem;
+}
+.three__cards .hero__layout.big .hero__text {
+  margin-bottom: 6.6rem;
+}
+
+.hero__btn.md {
+  width: 253px;
+  height: 74px;
+  margin-bottom: 6.3rem;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "graphik_lcg_bold";
+}
+
+.section__contact li {
+  margin-right: 9rem;
+}
+.section__contact li:last-child {
+  list-style: disc;
+}
+.section__contact li:last-child::marker {
+  color: #6667AB;
+  font-size: 5.5rem;
+}
+.section__contact li a {
+  font-family: "graphik_lcg_light";
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 120%;
+  letter-spacing: -0.05em;
+}
+
+.three__cards.contact {
+  margin-bottom: 16rem;
+}
+.three__cards.contact .hero__layout {
+  background-image: none;
+  margin-bottom: 0;
+}
+.three__cards.contact .hero__layout::before {
+  content: none;
+}
+
+footer {
+  width: 100%;
+  height: 468px;
+  background: #6667AB;
+  padding: 3.4rem 8.1rem;
+}
+footer .footer__logo {
+  width: 18rem;
+  margin-bottom: 2.2rem;
+}
+footer .footer__media_link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+footer .footer__media_link li {
+  margin-right: 7px;
+  width: 29px;
+  height: 29px;
+}
+footer .footer__media_card {
+  display: flex;
+  align-items: center;
+}
+footer .footer__media_card li {
+  width: 61px;
+  margin-right: 1.1rem;
+}
+footer .footer__invent {
+  font-family: "graphik_lcg_light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
