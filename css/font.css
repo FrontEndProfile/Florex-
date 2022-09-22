@@ -1,38 +1,32 @@
 @font-face {
-  font-family: "Gilroy-Light";
-  src: url("../font/Gilroy-Light.woff2") format("woff2"), url("../font/Gilroy-Light.woff") format("woff");
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Light.eot");
+  src: url("../font/GraphikLCG-Light.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Light.woff2") format("woff2"), url("../font/GraphikLCG-Light.woff") format("woff"), url("../font/GraphikLCG-Light.ttf") format("truetype"), url("../font/GraphikLCG-Light.svg#GraphikLCG-Light") format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("../font/Gilroy-ExtraBold.woff2") format("woff2"), url("../font/Gilroy-ExtraBold.woff") format("woff");
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Bold.eot");
+  src: url("../font/GraphikLCG-Bold.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Bold.woff2") format("woff2"), url("../font/GraphikLCG-Bold.woff") format("woff"), url("../font/GraphikLCG-Bold.ttf") format("truetype"), url("../font/GraphikLCG-Bold.svg#GraphikLCG-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "graphik_lcg_bold";
-  src: url("../font/graphiklcg-bold-webfont.woff2") format("woff2"), url("../font/graphiklcg-bold-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Medium.eot");
+  src: url("../font/GraphikLCG-Medium.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Medium.woff2") format("woff2"), url("../font/GraphikLCG-Medium.woff") format("woff"), url("../font/GraphikLCG-Medium.ttf") format("truetype"), url("../font/GraphikLCG-Medium.svg#GraphikLCG-Medium") format("svg");
+  font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "graphik_lcg_light";
-  src: url("../font/graphiklcg-light-webfont.woff2") format("woff2"), url("../font/graphiklcg-light-webfont.woff") format("woff");
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Regular.eot");
+  src: url("../font/GraphikLCG-Regular.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Regular.woff2") format("woff2"), url("../font/GraphikLCG-Regular.woff") format("woff"), url("../font/GraphikLCG-Regular.ttf") format("truetype"), url("../font/GraphikLCG-Regular.svg#GraphikLCG-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
-}
-@font-face {
-  font-family: "graphik_lcg_medium";
-  src: url("../font/graphiklcg-medium-webfont.woff2") format("woff2"), url("../font/graphiklcg-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "graphik_lcg_regular";
-  src: url("../font/graphiklcg-regular-webfont.woff2") format("woff2"), url("../font/graphiklcg-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-display: swap;
 }/*# sourceMappingURL=font.css.map */

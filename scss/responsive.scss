@@ -9,6 +9,9 @@
     .nav__bottom .shopping__bar {
         width: 20.1rem;
     }
+    .section__heading.contact__pg {
+        font-size: 90px;
+    }
 }
 @media (max-width: 1610px) { 
     .nav__bottom .navbar-brand {
@@ -25,6 +28,9 @@
     }
     .nav__bottom .shopping__bar {
         width: 18.1rem;
+    }
+    .section__heading.contact__pg {
+        font-size: 80px;
     }
 }
 @media (max-width: 1510px) { 
@@ -64,6 +70,9 @@
     *{ transition: 0.3s all;}
     .nav__bottom .navbar-nav .nav-item .nav-link {
         font-size: 14px;
+    }
+    .section__heading.contact__pg {
+        font-size: 70px;
     }
 }
 @media (max-width: 1285px) {
@@ -153,6 +162,13 @@
     .cards .cards__layout .grids__cards .card .card__info .card__info_tittle {
         font-size: 28px;
     }
+    .section__tittle .section__heading {
+        font-size: 48px;
+        line-height: 108%;
+        br {
+            display: none;
+        }
+    }
 
 
 
@@ -203,5 +219,125 @@
         font-size: 48px;
         margin-bottom: 1.5rem;
     }
+    .hero__layout .hero__text {
+        margin-bottom: 3.5rem;
+    }
+    .hero__layout .hero__layer {
+        padding-left: 6.4rem;
+        padding-right: 3rem;
+        padding-top: 9.4rem;
+    }
+    .sub__cards .sub__cards__layout {
+        height: max-content;
+        border-top: none;
+        border-bottom: none;
+        flex-direction: column;
+    }
+    .sub__cards .sub__card {
+        padding: 15px 0;
+    }
+    .sub__card {
+        padding: 15px 0;
+        border-right: none;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgba(102, 103, 171, 0.3);
+    }
+    .sub__cards .sub__card br {
+        display: block;
+    }
+    .sub__card__img {
+        margin-right: 5.4rem;
+    }
+    .three__cards {
+        .pe_2 {
+            padding-right: 0rem;
+        }
+        .ps_2 {
+            padding-left: 0rem;
+        }
+    }
+    .three__cards.contact .hero__layout {
+        margin-bottom: 2.5rem;
+    }
+    footer {
+        height: fit-content;
+    }
+    .error__content {
+        .section__heading.contact__pg {
+            font-size: 70px;
+            margin-bottom: 1.2rem;
+        }
+        .error__content_text {
+            margin-bottom: 2.8rem;
+        }
+    }
+    .section__heading.contact__pg {
+        padding-bottom: 3rem;
+    }
+    .head__border.end__space {
+        margin-bottom: 6rem;
+    }
+    .head__border.start__space {
+        margin-top: 6rem;
+    }
+    .head__border .breadcrumb .breadcrumb-item {
+        font-size: 16px;
+    }
+    .head__border .head__border__tittle {
+        font-size: 32px;
+        padding-bottom: 3rem;
+    }
+    .section__tittle.end__space .end__space {
+        margin-bottom: 0rem;
+    }
+    .section__tittle.end__space.Ziedu {
+        margin-bottom: 12rem;
+    }
+    .section__heading.contact__pg.text-start.riga {
+        font-size: 48px;
+        padding-bottom: 1rem;
+    }
+    .three__cards.contact {
+        margin-bottom: 8rem;
+    }
 }
 
+@media (max-width: 767px) {
+    .hero__layout .hero__btn {
+        width: 300px;
+        height: 60px;
+    }
+    .section__tittle .section__heading {
+        font-size: 38px;
+        line-height: 108%;
+        br {
+            display: none;
+        }
+    }
+    .section__tittle .section__heading {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .error__content .section__heading.contact__pg {
+        font-size: 50px;
+        text-align: start;
+
+    }
+    .error__content .error__content_text {
+        margin-bottom: 3.5rem;
+        line-height: 115%;
+        text-align: start;
+        
+    }
+    .error__content .error__btn {
+        width: 100%;
+        height: 65px;
+        font-size: 1.4rem;
+    }
+}

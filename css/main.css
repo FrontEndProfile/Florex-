@@ -14,28 +14,36 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "graphik_lcg_bold";
-  src: url("../font/graphiklcg-bold-webfont.woff2") format("woff2"), url("../font/graphiklcg-bold-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Light.eot");
+  src: url("../font/GraphikLCG-Light.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Light.woff2") format("woff2"), url("../font/GraphikLCG-Light.woff") format("woff"), url("../font/GraphikLCG-Light.ttf") format("truetype"), url("../font/GraphikLCG-Light.svg#GraphikLCG-Light") format("svg");
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "graphik_lcg_light";
-  src: url("../font/graphiklcg-light-webfont.woff2") format("woff2"), url("../font/graphiklcg-light-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Bold.eot");
+  src: url("../font/GraphikLCG-Bold.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Bold.woff2") format("woff2"), url("../font/GraphikLCG-Bold.woff") format("woff"), url("../font/GraphikLCG-Bold.ttf") format("truetype"), url("../font/GraphikLCG-Bold.svg#GraphikLCG-Bold") format("svg");
+  font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "graphik_lcg_medium";
-  src: url("../font/graphiklcg-medium-webfont.woff2") format("woff2"), url("../font/graphiklcg-medium-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Medium.eot");
+  src: url("../font/GraphikLCG-Medium.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Medium.woff2") format("woff2"), url("../font/GraphikLCG-Medium.woff") format("woff"), url("../font/GraphikLCG-Medium.ttf") format("truetype"), url("../font/GraphikLCG-Medium.svg#GraphikLCG-Medium") format("svg");
+  font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "graphik_lcg_regular";
-  src: url("../font/graphiklcg-regular-webfont.woff2") format("woff2"), url("../font/graphiklcg-regular-webfont.woff") format("woff");
+  font-family: "Graphik LCG";
+  src: url("../font/GraphikLCG-Regular.eot");
+  src: url("../font/GraphikLCG-Regular.eot?#iefix") format("embedded-opentype"), url("../font/GraphikLCG-Regular.woff2") format("woff2"), url("../font/GraphikLCG-Regular.woff") format("woff"), url("../font/GraphikLCG-Regular.ttf") format("truetype"), url("../font/GraphikLCG-Regular.svg#GraphikLCG-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 .Gilroy__Light, .nav__bottom .flag__bar .dropdown-menu .dropdown-item .dropdown__text {
   font-family: "Gilroy-Light";
@@ -46,19 +54,33 @@
 }
 
 .graphik_lcg_bold {
-  font-family: "graphik_lcg_bold";
+  font-family: "Graphik LCG";
 }
 
 .graphik_lcg_light, .mobile .offcanvas .offcanvas-body .serach__menu .form-control, .nav__top .navbar-nav .right .nav-item .nav-link, .nav__top .navbar-nav .nav-item .nav-link {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
 }
 
 .graphik_lcg_medium, .nav__bottom .navbar-nav .nav-item .nav-link {
-  font-family: "graphik_lcg_medium";
+  font-family: "Graphik LCG";
 }
 
 .graphik_lcg_regular {
-  font-family: "graphik_lcg_regular";
+  font-family: "Graphik LCG";
+}
+
+.primary {
+  color: #6667AB !important;
+}
+.primary:hover {
+  color: #6667AB;
+}
+
+.dark {
+  color: #000000 !important;
+}
+.dark:hover {
+  color: #000000;
 }
 
 html {
@@ -115,7 +137,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "graphik_lcg_medium";
+  font-family: "Graphik LCG";
 }
 
 .container-fluid,
@@ -144,6 +166,11 @@ body {
   background-color: #ffffff;
   border-radius: 6px;
   border: 1px solid rgba(176, 176, 176, 0.9058823529);
+}
+
+body ::selection {
+  background: rgba(255, 255, 255, 0.747);
+  color: #6667AB !important;
 }
 
 header {
@@ -426,7 +453,7 @@ header {
 .mobile .offcanvas .offcanvas-body .menu li a {
   font-size: 18px;
   line-height: 18px;
-  font-family: "graphik_lcg_medium";
+  font-family: "Graphik LCG";
   color: #000000;
 }
 .mobile .offcanvas .offcanvas-body .flag {
@@ -445,7 +472,7 @@ header {
   font-size: 18px;
   line-height: 18px;
   color: #000000;
-  font-family: "graphik_lcg_medium";
+  font-family: "Graphik LCG";
 }
 
 .hero {
@@ -479,9 +506,10 @@ header {
   font-size: 102px;
   line-height: 90%;
   letter-spacing: -0.05em;
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   margin-bottom: 4.2rem;
   color: #FFFFFF;
+  font-weight: 300;
 }
 .hero__layout .hero__text {
   font-weight: 300;
@@ -490,7 +518,8 @@ header {
   color: #FFFFFF;
   margin-bottom: 5.6rem;
 }
-.hero__layout .hero__btn {
+
+.hero__btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -502,13 +531,13 @@ header {
   padding-right: 3rem;
   color: #FFFFFF !important;
 }
-.hero__layout .hero__btn span {
+.hero__btn span {
   width: 19px;
 }
-.hero__layout .hero__btn:hover {
+.hero__btn:hover {
   color: #bdbfda !important;
 }
-.hero__layout .hero__btn:hover span {
+.hero__btn:hover span {
   margin-right: -8px;
 }
 
@@ -531,7 +560,7 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
-  font-family: "graphik_lcg_medium";
+  font-family: "Graphik LCG";
 }
 
 .cards {
@@ -564,7 +593,7 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
-  font-family: "graphik_lcg_medium";
+  font-family: "Graphik LCG";
   margin-right: 5rem;
   margin-bottom: 0;
 }
@@ -574,7 +603,7 @@ header {
   font-size: 32px;
   line-height: 90%;
   letter-spacing: -0.05em;
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   margin-bottom: 0;
 }
 .cards .cards__layout .grids__cards .card .card__info .card__info_arrow {
@@ -594,7 +623,7 @@ header {
 }
 
 .section__tittle .section__heading {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-weight: 300;
   font-size: 52px;
   line-height: 120%;
@@ -631,11 +660,11 @@ header {
   margin-bottom: 8rem;
 }
 .three__cards .hero__layout.fif .hero__tittle {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   margin-bottom: 5.1rem;
 }
 .three__cards .hero__layout.fif .hero__tittle .hero__tittle__fif {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-weight: 300;
   font-size: 52px;
   line-height: 90%;
@@ -645,7 +674,7 @@ header {
 .three__cards .hero__layout.fif .hero__tittle .discount {
   font-size: 112px;
   line-height: 90%;
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-weight: 300;
   margin-right: 15px;
 }
@@ -657,7 +686,7 @@ header {
   padding-left: 8.4rem;
 }
 .three__cards .hero__layout.big .hero__tittle {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-weight: 300;
   font-size: 102px;
   line-height: 90%;
@@ -673,7 +702,7 @@ header {
   margin-bottom: 6.3rem;
   font-weight: 700;
   font-size: 18px;
-  font-family: "graphik_lcg_bold";
+  font-family: "Graphik LCG";
 }
 
 .section__contact li {
@@ -687,7 +716,7 @@ header {
   font-size: 5.5rem;
 }
 .section__contact li a {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-weight: 300;
   font-size: 52px;
   line-height: 120%;
@@ -735,7 +764,7 @@ footer .footer__media_card li {
   margin-right: 1.1rem;
 }
 footer .footer__invent {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -743,7 +772,7 @@ footer .footer__invent {
   color: #FFFFFF;
 }
 footer .footer__menu {
-  font-family: "graphik_lcg_light";
+  font-family: "Graphik LCG";
   font-weight: 300;
   font-size: 25px;
   line-height: 90%;
@@ -772,4 +801,107 @@ footer .footer__inner_m {
 }
 footer .tapy li {
   margin-right: 7.3rem;
+}
+
+.section__heading.contact__pg {
+  font-weight: 300;
+  font-size: 102px;
+  letter-spacing: -0.05em;
+}
+
+.head__border .head__border__tittle {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 90%;
+  letter-spacing: -0.05em;
+  color: #000000;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(102, 103, 171, 0.3);
+}
+.head__border .breadcrumb {
+  margin-bottom: 3rem;
+}
+.head__border .breadcrumb .breadcrumb-item {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.start__space {
+  margin-top: 8rem;
+}
+
+.end__space {
+  margin-bottom: 8rem;
+}
+
+.contact__time {
+  margin-bottom: 4rem;
+}
+.contact__time .contact__time_small {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  color: #727272;
+  margin-bottom: 1rem;
+}
+.contact__time .contact__time_text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.contact__info .contact__info__bold_text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+}
+.contact__info .contact__info_text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.error__layout {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/error.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: right;
+}
+
+.error__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -55%;
+  width: 80%;
+}
+.error__content .error__content_head {
+  margin-bottom: 2rem;
+  line-height: 100%;
+  text-align: center;
+}
+.error__content .error__content_text {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+.error__content .error__btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
