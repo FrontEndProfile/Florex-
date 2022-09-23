@@ -904,4 +904,210 @@ footer .tapy li {
   line-height: 160%;
   letter-spacing: 0.1em;
   color: #FFFFFF;
+}
+
+.pgs__menu {
+  padding-right: 3rem;
+}
+.pgs__menu .pgs__menu_item {
+  border-bottom: 1px solid rgba(102, 103, 171, 0.3);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.pgs__menu .pgs__menu_item .pgs__menu_link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.filter__item_layout {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.filter__item {
+  background: #B4B4E1;
+  border-radius: 200px;
+  width: 62.05px;
+  height: 35.05px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #6667AB;
+  margin-top: 0.7rem;
+  margin-left: 3rem;
+}
+
+.bb__line {
+  border-bottom: 1px solid rgba(102, 103, 171, 0.3);
+}
+
+.filter__item_drop__down .dropdown {
+  width: 163.58px;
+  height: 35px;
+  border: 1px solid #A4A4A4;
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter__item_drop__down .dropdown a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0.7rem;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: #A4A4A4 !important;
+}
+.filter__item_drop__down .dropdown a svg {
+  fill: #A4A4A4;
+  margin-right: 0.7rem;
+}
+.filter__item_drop__down .dropdown-menu.show {
+  display: block;
+  top: 0.7rem !important;
+}
+.filter__item_drop__down .dropdown-toggle::after {
+  margin-left: 0.6rem;
+  vertical-align: 0.255em;
+  border-top: 0.5rem solid;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0;
+  border-left: 0.5rem solid transparent;
+}
+
+.dropy__nav {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+}
+.dropy__nav .filter__item_drop__down {
+  margin-right: 2rem;
+}
+
+.product__card {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.product__card .product__card_img {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.product__card .product__card_img .product__card_template {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.508);
+  padding: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  translate: 100%;
+}
+.product__card .product__card_img .product__card_template .product__card_green_badge {
+  background: rgba(48, 192, 69, 0.6);
+  border-radius: 5px;
+  width: fit-content;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 26px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.product__card .product__card_img .product__card_template .product__card_white_badge {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product__card .product__card_img .product__card_template .product__card_white_badge svg {
+  fill: #6667AB;
+}
+.product__card .product__card_img .product__card_template .b__space {
+  margin-bottom: 8px;
+}
+.product__card .product__card_divider {
+  height: 1px;
+  width: 100%;
+  opacity: 0.3;
+  background: #6667AB;
+}
+.product__card .product__card_content {
+  text-align: center;
+}
+.product__card .product__card_content_tittle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.product__card .product__card_content_prize {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #6667AB;
+  margin-bottom: 0.3rem;
+}
+
+.products {
+  margin: 0 -20px;
+}
+
+.products [class*=col] {
+  padding: 0 20px;
+  flex: 1 0 33%;
+}
+
+.load__more .page-item {
+  margin-right: 1rem;
+}
+.load__more .page-item .page-link {
+  border: none;
+  box-shadow: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 18px;
+}
+.load__more .page-item .page-link:hover {
+  background: #6667AB;
+  border-radius: 5px;
+  color: white !important;
+}
+.load__more .page-item .page-link:hover svg {
+  fill: #ffffff;
+}
+.load__more .page-item .page-link:active {
+  background: white;
+}
+.load__more .arrow svg {
+  fill: #6667AB;
 }/*# sourceMappingURL=main.css.map */
