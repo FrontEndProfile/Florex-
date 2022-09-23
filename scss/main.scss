@@ -1237,7 +1237,7 @@ color: #A4A4A4 !important;
     .product__card_template {
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.508);
+      // background: rgba(0, 0, 0, 0.166);
       padding: 2rem;
       display: flex;
       align-items: flex-end;
@@ -1273,7 +1273,7 @@ color: #A4A4A4 !important;
       .b__space {
         margin-bottom: 8px;
       }
-      translate: 100%;
+      translate: 0 100%;
     }
   }
   .product__card_divider {
@@ -1301,6 +1301,12 @@ color: #A4A4A4 !important;
     text-align: center;
     color: #6667AB;
     margin-bottom: 0.3rem;
+  }
+  &:hover {
+    .product__card_img .product__card_template {
+      translate: 0 0%;
+
+    }
   }
 }
 .products {

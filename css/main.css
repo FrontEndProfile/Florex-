@@ -1011,12 +1011,11 @@ footer .tapy li {
 .product__card .product__card_img .product__card_template {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.508);
   padding: 2rem;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  translate: 100%;
+  translate: 0 100%;
 }
 .product__card .product__card_img .product__card_template .product__card_green_badge {
   background: rgba(48, 192, 69, 0.6);
@@ -1073,6 +1072,9 @@ footer .tapy li {
   text-align: center;
   color: #6667AB;
   margin-bottom: 0.3rem;
+}
+.product__card:hover .product__card_img .product__card_template {
+  translate: 0 0%;
 }
 
 .products {
