@@ -283,6 +283,20 @@ border-radius: 180px;
         height: 3.8rem;
         border: none;
     }
+    // .green__single {
+    //     margin-right: 0;
+    //     width: 100%;
+    // }
+    // .payment__green_content {
+    //     width: 100%;
+    // }
+    // .green__single .green svg {
+    //     width: 100%;
+    // }
+    .payment__green_content .payment__green_head {
+        font-size: 72px;
+        margin-bottom: 3rem;
+    }
     
 }
 @media (max-width: 991px) {
@@ -504,6 +518,26 @@ border-radius: 180px;
     .minimum__cards {
         margin: 6rem 0;
     }
+    .green__single {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .payment__green_content {
+        width: 100%;
+    }
+    .green__single .green svg {
+        width: 100%;
+    }
+    .payment__green > .d-flex {
+        flex-wrap: wrap;
+    }
+    .payment__green_content .payment__green__small {
+        font-size: 18px;
+        line-height: 160%;
+        color: #000000;
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -558,6 +592,15 @@ border-radius: 180px;
     .modal-content .modal-body p {
         margin: 2rem 0 6rem;
         font-size: 16px;
+    }
+    .total__items {
+        margin: 0rem 0;
+    }
+    .head__border .head__border__tittle {
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.1rem;
     }
 }
 

@@ -2075,3 +2075,93 @@ color: #FFFFFF;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
+
+.card_select {
+  margin-top: 4rem;
+  .form-check-label {
+    padding-left: 1rem;
+  }
+}
+
+.form-check-input:checked {
+	background-color: #6667AB;
+	border-color: #6667AB;
+}
+.form-check-input:checked[type="checkbox"] {
+	background-image: url("../images/ticks.svg");
+  background-size: 55%;
+}
+
+.green__single {
+  margin-right: 5.5rem;
+  .green {
+    svg {
+      width: 7.7rem;
+    }
+  }
+}
+.payment__green_content {
+  .payment__green__small {
+    font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+/* #000000 */
+
+color: #000000;
+margin-bottom: 3rem;
+  }
+  .payment__green_head {
+    font-weight: 300;
+font-size: 102px;
+line-height: 100%;
+/* or 102px */
+
+letter-spacing: -0.05em;
+
+/* #000000 */
+
+color: #000000;
+margin-bottom: 3rem;
+
+  }
+  .payment__green_info {
+    font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+/* #000000 */
+
+color: #000000;
+margin-bottom: 4rem;
+a {
+  color: #6667AB !important;
+}
+  }
+}
+
+.payment__total_after {
+  margin: 4rem 0;
+  .payment__total_after__head {
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    color: #000000;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+
+}
+.payment__total_after__list {
+  li {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+  }
+}
