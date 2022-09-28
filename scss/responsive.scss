@@ -130,6 +130,9 @@
 height: 7rem;
 border-radius: 180px;
     }
+    .total__bill__message {
+        width: fit-content;
+    }
 }
 @media (max-width: 1285px) {
     *{ transition: 0.3s all;}
@@ -594,13 +597,62 @@ border-radius: 180px;
         font-size: 16px;
     }
     .total__items {
-        margin: 0rem 0;
+        margin: 6rem 0;
     }
     .head__border .head__border__tittle {
         font-size: 18px;
         font-weight: 500;
         font-style: normal;
         letter-spacing: 0.1rem;
+    }
+    .payment__green_content .payment__green_head {
+        font-size: 48px;
+        margin-bottom: 2rem;
+    }
+    .payment__green_content .payment__green_info {
+        font-size: 16px;
+        margin-bottom: 3rem;
+    }
+    .items__layouts .items__layouts_tittle {
+        margin-top: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+    .items__layouts .items__layouts_tittle .items__layouts_tittle_name {
+        font-size: 18px;
+    }
+    .items__layouts_tittle_name {
+        font-size: 1.4rem;
+    }
+    .product__item_add_counter {
+        border-radius: 0px;
+        padding: 0rem 0.5rem;
+    }
+    .items__layouts .items__layouts_tittle_name .product__item_add_counter {
+        width: 4rem;
+        height: fit-content;
+        border: none;
+    }
+    .product__item_add_counter {
+         margin-bottom: 0rem; 
+    }
+    .items__layouts .items__layouts_prize {
+        margin-bottom: 1.2rem;
+    }
+    .items__layouts .items__layouts_counter {
+        margin-bottom: 0.6rem;
+    }
+    .items__layouts {
+        .row {
+            width: 100%;
+        }
+    }
+    .newsletter {
+        .form-control,.btn {
+            margin-bottom: 1rem;
+        }
+    }
+    .fill_form {
+        margin-top: 2rem;
     }
 }
 
@@ -704,4 +756,47 @@ border-radius: 180px;
         margin: auto;
     }
 
+}
+
+@media (max-width: 500px) {
+    .carty .offcanvas-body .total__bill_amount .total__bill_amount_head {
+        font-size: 18px;
+    }
+    .carty .offcanvas-header .offcanvas-title {
+        font-size: 24px;
+    }
+    // .carty .offcanvas-body .items__layouts {
+    //     flex-wrap: wrap;
+    // }
+    .carty .offcanvas-body .items__layouts_prize > .items__layouts_tittle_name {
+        display: none;
+    }
+    .carty .offcanvas-body .items__layouts .items__layouts_tittle {
+        max-width: 240px;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: 2rem;
+        .items__layouts_prize {
+            display: block !important;
+            .items__layouts_tittle_name {
+                margin-top: 0.5rem;
+                display: block !important;
+                text-align: start;
+                font-weight: 300;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+
+letter-spacing: -0.05em;
+
+/* #000000 */
+
+color: #000000;
+
+            }
+        }
+    }
+    .carty .offcanvas-body .total__bill_amount {
+        margin-top: 10rem;
+    }
 }

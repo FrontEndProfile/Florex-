@@ -2011,6 +2011,7 @@ letter-spacing: -0.05em;
 color: #000000;
 margin-bottom: 4rem;
   }
+
 }
 
 
@@ -2030,6 +2031,51 @@ margin-bottom: 1rem;
   color: #727272;
 }
   }
+  .text__area {
+    border: 1px solid #B4B4E1;
+border-radius: 30px;
+width: 355px;
+padding: 2.6rem 3rem;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+color: black;
+margin-bottom: 2rem;
+
+&::placeholder {
+  color: #727272;
+
+}
+  }
+
+}
+.input-group {
+  border: 1px solid #B4B4E1;
+border-radius: 300px;
+width: 355px;
+height: 82px;
+.form-control {
+border-left: 1px solid #B4B4E1 !important;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+color: black;
+padding-left: 3rem;
+&:hover {
+color: #727272;
+
+}
+
+
+
+}
+.dropdown-toggle,.dropdown-item {
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+padding: 0 3rem;
+}
 }
 
 .fill_form_tittle_small {
@@ -2165,3 +2211,255 @@ a {
     color: #000000;
   }
 }
+.offcanvas.offcanvas-end {
+	width: 570px;
+}
+ .carty {
+   width: 570px;
+  .offcanvas-header {
+    background: #6667AB;
+    width: 100%;
+height: 90px;
+    // color: rgb(255, 255, 255);
+    padding: 0px;
+    justify-content: start;
+    .btn-close {
+      height: 100%;
+      margin: 20px;
+      background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(255, 255, 255)'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+      opacity: 1;
+      border-radius: 0rem;
+      width: 8.6rem;
+      border-right: 1px solid #FFFFFF;
+      // padding: 1rem 2 .2rem;
+
+    }
+    .offcanvas-title {
+      font-family: $graphik_lcg_medium;
+      padding-left: 3rem;
+      font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: -0.05em;
+color: #FFFFFF;
+    }
+    
+
+  }
+  .offcanvas-body {
+    padding: 0rem 3rem !important;
+    .items__layouts .items__layouts_tittle {
+      max-width: 240px;
+      margin-bottom: auto;
+      margin-top: auto;
+      margin-left: 2rem;
+      .items__layouts_tittle_name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+      }
+      
+    }
+    .items__layouts .items__layouts_img {
+      width: 102px;
+    }
+    .items__layouts_prize {
+      margin-left: 1rem;
+      >.items__layouts_tittle_name {
+        font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+text-align: right;
+letter-spacing: -0.05em;
+
+/* #000000 */
+
+color: #000000;
+
+      }
+    }
+    .items__layouts {
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+    }
+    .total__bill_amount {
+      .total__bill_amount_head {
+        font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+letter-spacing: -0.05em;
+
+/* #000000 */
+
+color: #000000;
+
+      }
+      .total__bill_amount_prize {
+        font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+/* identical to box height, or 39px */
+
+text-align: right;
+letter-spacing: -0.05em;
+
+/* #000000 */
+
+color: #000000;
+      }
+      padding-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 16rem;
+    }
+    .total__bill_btns {
+      padding-top: 4rem;
+      .total__bill_btn {
+        background: #6667AB;
+        border-radius: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 40px;
+        gap: 77px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        letter-spacing: 0.1em;
+        color: #FFFFFF !important;
+        margin-bottom: 1rem;
+      }
+      .total__bill_btn.outline {
+        border: 1px solid #6667AB;
+border-radius: 180px;
+background: white;
+color: #6667AB   !important;
+
+      }
+    }
+  }
+}
+
+
+// FIXES 
+.filter__item_drop__down .dropdown-menu {
+	width: 164px;
+background: #FFFFFF;
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+.dropdown-item {
+  font-weight: 300;
+font-size: 14px;
+line-height: 130%;
+padding: 15px 15px;
+border-bottom: 1px solid rgba(102, 103, 171, 0.3);
+
+}
+.dropdown-item:focus, .dropdown-item:hover {
+	color: #000000;
+	background: rgba(102, 103, 171, 0.05);
+}
+.form-check {
+  .form-check-label {
+    font-weight: 300;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+
+
+/* #000000 */
+
+color: #000000;
+margin-top: 3px;
+  }
+}
+
+.range__bar {
+  width: 259px !important;
+  height: 137px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+}
+.filter__item_drop__down .dropdown-menu.range__bar {
+  width: 259px !important;
+  height: 137px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 4rem !important;
+.btn_dynamic {
+  input {
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 29px;
+gap: 10px;
+
+width: 77px;
+height: 34px;
+background: rgba(102, 103, 171, 0.06);
+border: 1px solid rgba(0, 0, 0, 0.05);
+font-weight: 300;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+
+text-align: center;
+
+/* #000000 */
+
+color: #000000;
+  }
+
+}
+}
+// .range__bar_space {
+//   margin-bottom: 4rem !important;
+// }
+
+.range__bar {
+  .irs--round .irs-bar {
+    background-color: #6667AB;
+  }
+  .irs--round .irs-handle {
+    background-color: #6667AB;
+    border-color: #6667AB;
+    box-shadow: none;
+  }
+  .irs--round .irs-handle.state_hover,
+  .irs--round .irs-handle:hover {
+    background-color: #6667AB;
+  }
+  .irs--round .irs-handle {
+    width: 16px;
+    height: 16px;
+    top: 29px;
+  }
+  .irs--round .irs-from,
+  .irs--round .irs-to,
+  .irs--round .irs-single {
+    background-color: transparent;
+    color: #6667AB;
+    display: none;
+  }
+  .irs--round .irs-from:before,
+  .irs--round .irs-to:before,
+  .irs--round .irs-single:before,
+  .irs--round .irs-min,
+  .irs--round .irs-max {
+    display: none;
+  }
+}
+
+
