@@ -134,7 +134,67 @@
     border-radius: 180px;
   }
   .total__bill__message {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
+  }
+  .nav__bottom {
+    height: 8rem;
+  }
+  .nav__bottom .navbar-nav {
+    padding-left: 1.8rem;
+    padding-right: 0.8rem;
+  }
+  .nav__bottom .navbar-nav .nav-item .nav-link {
+    margin-right: 1.8rem;
+    font-size: 15px;
+  }
+  .nav__bottom .flag__bar {
+    width: 4.4rem;
+    margin: auto;
+    padding-left: 0;
+  }
+  .nav__bottom .flag__bar .dropdown-toggle {
+    padding: 0;
+  }
+  .nav__bottom .flag__bar .dropdown-toggle .dropdown__img {
+    margin-right: 0;
+  }
+  .nav__bottom .search__bar {
+    width: 5.4rem;
+  }
+  .nav__bottom .shopping__bar {
+    width: 16.1rem;
+  }
+  .nav__bottom .navbar-brand img {
+    width: 90px;
+  }
+  .sub__card {
+    padding: 0px 30px;
+  }
+  .sub__card__tittle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1350px) {
+  .collapse.navbar-collapse .search__bar, .collapse.navbar-collapse .shopping__bar, .collapse.navbar-collapse .flag__bar {
+    display: none;
+  }
+  .nav__bottom .navbar-nav .nav-item .nav-link {
+    margin-right: 2.2rem;
+    font-size: 1.3vw;
+  }
+  header .nav__bottom .navbar-nav {
+    width: 100%;
+  }
+  .spearte__header.nav__bottom {
+    display: flex;
+    padding: 0 2rem;
+  }
+  .spearte__header.nav__bottom .flag__bar {
+    width: 4.4rem;
+    margin: auto;
+    padding-left: 0;
   }
 }
 @media (max-width: 1285px) {
@@ -153,30 +213,14 @@
   }
 }
 @media (max-width: 1200px) {
-  .nav__bottom .navbar-expand-lg .navbar-collapse {
-    flex-wrap: wrap;
+  .nav__bottom .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
   }
-  .nav__bottom .navbar-expand-lg .navbar-collapse.h-100 {
-    height: 70% !important;
-  }
-  .nav__bottom .navbar-expand-lg .navbar-collapse.h-100 .navbar-nav {
-    height: auto !important;
+  .nav__bottom .navbar-nav .nav-item .nav-link {
+    margin-right: 1.8rem;
   }
   .nav__bottom .navbar-nav {
     width: 100%;
-  }
-  .nav__bottom .flag__bar {
-    margin: 0 4rem;
-    border: none;
-  }
-  .nav__bottom .shopping__bar {
-    width: 17rem;
-    padding-right: 0px;
-    border: none;
-  }
-  .nav__bottom .search__bar {
-    width: 6.9rem;
-    border: none;
   }
   .nav__top .navbar-nav .nav-item:nth-child(1) {
     width: 17.7rem;
@@ -269,6 +313,8 @@
     display: block;
   }
   .items__layouts .items__layouts_tittle {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
     max-width: max-content;
     margin-left: 0;
   }
@@ -280,6 +326,12 @@
   .payment__green_content .payment__green_head {
     font-size: 72px;
     margin-bottom: 3rem;
+  }
+}
+@media (max-width: 1020px) {
+  .nav__bottom .navbar-nav .nav-item .nav-link {
+    margin-right: 1.6rem;
+    font-size: 13px;
   }
 }
 @media (max-width: 991px) {
@@ -311,6 +363,13 @@
     justify-content: center;
     width: 19.5rem;
   }
+  .spearte__header.nav__bottom {
+    display: none;
+  }
+  .small__menu {
+    margin-left: auto;
+    margin-right: 2rem;
+  }
   .cards .cards__layout .grids__cards .e {
     padding-right: 0rem;
   }
@@ -333,6 +392,8 @@
     padding-top: 9.4rem;
   }
   .sub__cards .sub__cards__layout {
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     border-top: none;
     border-bottom: none;
@@ -366,6 +427,8 @@
     margin-bottom: 2.5rem;
   }
   footer {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
   }
   .error__content .section__heading.contact__pg {
@@ -465,7 +528,11 @@
     font-size: 14px;
   }
   .product__item_add_counter {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     border-radius: 180px;
     padding: 3rem 9.5rem;
@@ -601,6 +668,8 @@
   }
   .items__layouts .items__layouts_tittle_name .product__item_add_counter {
     width: 4rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     border: none;
   }
@@ -780,6 +849,9 @@
   .three__cards_head_layout {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
+  }
+  .small__menu {
+    margin: auto;
   }
 }
 @media (max-width: 500px) {

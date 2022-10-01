@@ -172,6 +172,11 @@ body {
   border: 1px solid rgba(176, 176, 176, 0.9058823529);
 }
 
+body ::-moz-selection {
+  background: rgba(255, 255, 255, 0.747);
+  color: #6667AB !important;
+}
+
 body ::selection {
   background: rgba(255, 255, 255, 0.747);
   color: #6667AB !important;
@@ -376,6 +381,11 @@ header {
   background: rgba(45, 150, 220, 0.05);
 }
 
+.spearte__header.nav__bottom {
+  display: flex;
+  display: none;
+}
+
 .mobo .shopping__bar {
   width: 23.1rem;
   display: flex;
@@ -432,6 +442,12 @@ header {
   font-weight: 300;
   font-size: 16px;
   line-height: 160%;
+}
+.mobile .offcanvas .offcanvas-body .serach__menu .form-control::-moz-placeholder {
+  color: #727272;
+}
+.mobile .offcanvas .offcanvas-body .serach__menu .form-control:-ms-input-placeholder {
+  color: #727272;
 }
 .mobile .offcanvas .offcanvas-body .serach__menu .form-control::placeholder {
   color: #727272;
@@ -557,6 +573,8 @@ header {
 .sub__card {
   padding: 0px 44px;
   border-right: 1px solid rgba(102, 103, 171, 0.3);
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
 }
 
@@ -660,6 +678,8 @@ header {
   margin-top: 8rem;
 }
 .three__cards .hero__layout {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 .three__cards .hero__layout .hero__layer {
@@ -1033,7 +1053,8 @@ footer .tapy li {
   font-weight: 300;
   font-size: 18px;
   line-height: 130%;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #6667AB !important;
 }
 
@@ -1068,6 +1089,8 @@ footer .tapy li {
 .product__card .product__card_img .product__card_template .product__card_green_badge {
   background: rgba(48, 192, 69, 0.6);
   border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   height: 26px;
   display: flex;
@@ -1184,24 +1207,16 @@ footer .tapy li {
   font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
 }
 .product__gallery .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .product__gallery .swiper {
   width: 100%;
@@ -1234,7 +1249,8 @@ footer .tapy li {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .product__gallery .swiper-button-next, .product__gallery .swiper-button-prev {
   width: 60px;
@@ -1583,6 +1599,8 @@ footer .tapy li {
   padding: 30px 40px;
   background: #FFFFFF;
   border-radius: 180px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: 4rem;
 }
@@ -1592,7 +1610,8 @@ footer .tapy li {
   font-size: 18px;
   line-height: 130%;
   /* or 23px */
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   /* #6667AB */
   color: #6667AB !important;
   margin-top: 4rem;
@@ -1602,6 +1621,8 @@ footer .tapy li {
 .items__layouts {
   display: flex;
   align-items: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   margin-bottom: 4rem;
 }
@@ -1707,6 +1728,12 @@ footer .tapy li {
   box-shadow: none;
   margin-bottom: 1rem;
 }
+.fill_form_feilds .form-control::-moz-placeholder {
+  color: #727272;
+}
+.fill_form_feilds .form-control:-ms-input-placeholder {
+  color: #727272;
+}
 .fill_form_feilds .form-control::placeholder {
   color: #727272;
 }
@@ -1720,6 +1747,12 @@ footer .tapy li {
   line-height: 160%;
   color: black;
   margin-bottom: 2rem;
+}
+.fill_form_feilds .text__area::-moz-placeholder {
+  color: #727272;
+}
+.fill_form_feilds .text__area:-ms-input-placeholder {
+  color: #727272;
 }
 .fill_form_feilds .text__area::placeholder {
   color: #727272;
