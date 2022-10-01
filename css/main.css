@@ -339,7 +339,7 @@ header {
 }
 .nav__bottom .flag__bar .dropdown-menu {
   width: 150%;
-  translate: -15% 0%;
+  translate: -35% 0%;
   margin-top: 2rem;
   border: 1px solid #DCDCDC;
   border-radius: 5px;
@@ -384,6 +384,28 @@ header {
 .spearte__header.nav__bottom {
   display: flex;
   display: none;
+}
+
+.btn__back_pg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: #6667AB !important;
+  border: 1px solid #6667AB;
+  border-radius: 300px;
+  width: 192px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn__back_pg span {
+  margin-right: 1rem;
 }
 
 .mobo .shopping__bar {
@@ -763,6 +785,33 @@ header {
 }
 .three__cards.contact .hero__layout::before {
   content: none;
+}
+
+.hero__layout.fif.one {
+  background: #6667AB;
+  background-image: url(../images/three_imgs_card_01.webp);
+  background-position: center;
+  background-size: cover;
+}
+.hero__layout.fif.one::before {
+  content: none;
+}
+
+.hero__layout.fif.two {
+  background: #6667AB;
+  background-image: url(../images/three_imgs_card_02.webp);
+  background-position: center;
+  background-size: cover;
+}
+.hero__layout.fif.two::before {
+  content: none;
+}
+
+.hero__layout.big.three {
+  background: #6667AB;
+  background-image: url(../images/three_imgs_card_03.webp);
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
@@ -1261,14 +1310,26 @@ footer .tapy li {
   justify-content: center;
   align-items: center;
 }
+.product__gallery .swiper-button-next:hover, .product__gallery .swiper-button-prev:hover {
+  background: #6667AB;
+}
+.product__gallery .swiper-button-next:hover svg, .product__gallery .swiper-button-prev:hover svg {
+  fill: #ffffff;
+}
 .product__gallery .swiper-button-prev svg {
   fill: #6667AB;
 }
 .product__gallery .swiper-button-next {
-  background: #6667AB;
+  background: #ffffff;
 }
 .product__gallery .swiper-button-next svg {
-  fill: white;
+  fill: #6667AB;
+}
+.product__gallery .swiper-button-next:hover {
+  background: #6667AB;
+}
+.product__gallery .swiper-button-next:hover svg {
+  fill: #ffffff;
 }
 .product__gallery .swiper-button-next::after, .product__gallery .swiper-rtl .swiper-button-prev::after {
   content: none;
@@ -1740,7 +1801,7 @@ footer .tapy li {
 .fill_form_feilds .text__area {
   border: 1px solid #B4B4E1;
   border-radius: 30px;
-  width: 355px;
+  width: 300px;
   padding: 2.6rem 3rem;
   font-weight: 300;
   font-size: 18px;
@@ -1761,7 +1822,7 @@ footer .tapy li {
 .input-group {
   border: 1px solid #B4B4E1;
   border-radius: 300px;
-  width: 355px;
+  width: 300px;
   height: 82px;
 }
 .input-group .form-control {
@@ -2137,4 +2198,12 @@ footer .tapy li {
   line-height: 130%;
   letter-spacing: 0.1em;
   color: #000000;
+}
+
+.three__355 {
+  width: 355px;
+}
+
+.head__border .row .mx-auto.overflow-scroll {
+  overflow: hidden !important;
 }/*# sourceMappingURL=main.css.map */

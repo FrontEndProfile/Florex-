@@ -45,6 +45,9 @@
     padding-left: 4rem;
     padding-right: 4rem;
   }
+  .nav__bottom .flag__bar .dropdown-menu .dropdown-item .dropdown__text {
+    display: none;
+  }
 }
 @media (max-width: 1610px) {
   .nav__bottom .navbar-brand {
@@ -195,6 +198,17 @@
     width: 4.4rem;
     margin: auto;
     padding-left: 0;
+  }
+  .nav__bottom .flag__bar .dropdown-menu {
+    min-width: 70px;
+    translate: 30% 8%;
+    margin-top: 2rem;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.25));
+    background: white;
+    padding: 0;
+    position: absolute;
   }
 }
 @media (max-width: 1285px) {
@@ -583,6 +597,17 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  .breadcrumb {
+    width: 767px;
+    overflow-x: scroll;
+    white-space: 100%;
+  }
+  .cart__01_pg {
+    padding: 3rem 0;
+    width: 8rem;
+    height: 3.8rem;
+    border: none;
+  }
 }
 @media (max-width: 767px) {
   .hero__layout .hero__btn {
@@ -721,6 +746,42 @@
   .product__card .product__card_img .product__card_template {
     padding: 1rem;
   }
+  .product__item_add_counter.product__pg {
+    width: 26rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 180px;
+    padding: 3rem 4.5rem;
+  }
+  .product__item_add_counter.product__pg .frame {
+    justify-content: space-between;
+  }
+  .product__item_add_counter.product__pg .frame .d-flex {
+    width: 100%;
+  }
+  .filter__item {
+    width: 35px;
+    height: 22px;
+    font-size: 11px;
+    margin-top: 0rem;
+    margin-left: 1rem;
+  }
+  .head__border .head__border__tittle {
+    padding-bottom: 2rem;
+  }
+  .cart__01_pg {
+    padding: 0rem 0;
+    width: 8rem !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  .head__border .row .mx-auto.overflow-scroll {
+    overflow: scroll !important;
+  }
 }
 @media (max-width: 575px) {
   .error__content .section__heading.contact__pg {
@@ -853,6 +914,9 @@
   .small__menu {
     margin: auto;
   }
+  .three__355 {
+    width: 300px !important;
+  }
 }
 @media (max-width: 500px) {
   .carty .offcanvas-body .total__bill_amount .total__bill_amount_head {
@@ -891,6 +955,10 @@
   .hero__layout .hero__btn {
     width: 275px;
     height: 52px;
+  }
+  .check__btn {
+    margin-right: 0.2rem;
+    margin-bottom: 0.6rem;
   }
 }
 @media (max-width: 440px) {
