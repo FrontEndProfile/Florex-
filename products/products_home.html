@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PRO</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/ion.rangeSlider.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/responsive.css">
 </head>
@@ -18,498 +18,515 @@
     <!-- ======================== -->
     <header>
         <div class="nav__top d-none d-lg-block">
-            <nav class="navbar navbar-expand-lg p-0 h-100">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between align-items-center"
-                        id="navbarNavDropdown">
-                        <ul class="navbar-nav w-100 d-flex justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../cart/cart_01.html">Доставка и оплата</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../contact_404/contact.html">Контакты</a>
-                                </li>
-                            </div>
-                            <div class="w-100 d-none">
-                                <form class="position-relative h-100" role="search">
-                                    <input class="form-control bg-transparent me-2 h-100 w-100 shadow-none"
-                                        type="search" placeholder="Поиск по каталогу..." aria-label="Search">
-                                    <button class="btn position-absolute" type="submit">
-                                        <svg width="25" height="25" viewBox="0 0 25 25"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M19.0104 10.9377C19.0104 15.3962 15.396 19.0106 10.9375 19.0106C6.47893 19.0106 2.86456 15.3962 2.86456 10.9377C2.86456 6.47911 6.47893 2.86475 10.9375 2.86475C15.396 2.86475 19.0104 6.47911 19.0104 10.9377ZM10.9375 20.5731C16.259 20.5731 20.5729 16.2592 20.5729 10.9377C20.5729 5.61617 16.259 1.30225 10.9375 1.30225C5.61599 1.30225 1.30206 5.61617 1.30206 10.9377C1.30206 16.2592 5.61599 20.5731 10.9375 20.5731ZM22.3142 22.3144C21.511 23.1176 20.2087 23.1176 19.4055 22.3144L17.4545 20.3635C18.5901 19.5768 19.5767 18.5903 20.3633 17.4547L22.3142 19.4056C23.1175 20.2089 23.1175 21.5112 22.3142 22.3144Z" />
-                                        </svg>
-  
-                                    </button>
-                                </form>
-                            </div>
-  
-  
-  
-                            <div class="right d-flex align-items-center">
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#">Riga, Kauguru iela 6</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">+37129292929</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">info@florexshop.lv</a>
-                                </li>
-                            </div>
-  
-                        </ul>
-  
-                    </div>
-                </div>
-            </nav>
+          <nav class="navbar navbar-expand-lg p-0 h-100">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="cart_01.html">Доставка и оплата</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../contact_404/contact.html">Контакты</a>
+                    </li>
+                  </div>
+                  <div class="w-100 d-none">
+                    <form class="position-relative h-100" role="search">
+                      <input class="form-control bg-transparent me-2 h-100 w-100 shadow-none" type="search"
+                        placeholder="Поиск по каталогу..." aria-label="Search">
+                      <button class="btn position-absolute" type="submit">
+                        <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M19.0104 10.9377C19.0104 15.3962 15.396 19.0106 10.9375 19.0106C6.47893 19.0106 2.86456 15.3962 2.86456 10.9377C2.86456 6.47911 6.47893 2.86475 10.9375 2.86475C15.396 2.86475 19.0104 6.47911 19.0104 10.9377ZM10.9375 20.5731C16.259 20.5731 20.5729 16.2592 20.5729 10.9377C20.5729 5.61617 16.259 1.30225 10.9375 1.30225C5.61599 1.30225 1.30206 5.61617 1.30206 10.9377C1.30206 16.2592 5.61599 20.5731 10.9375 20.5731ZM22.3142 22.3144C21.511 23.1176 20.2087 23.1176 19.4055 22.3144L17.4545 20.3635C18.5901 19.5768 19.5767 18.5903 20.3633 17.4547L22.3142 19.4056C23.1175 20.2089 23.1175 21.5112 22.3142 22.3144Z" />
+                        </svg>
+    
+                      </button>
+                    </form>
+                  </div>
+     
+                  
+                  <div class="right d-flex align-items-center">
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">Riga, Kauguru iela 6</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">+37129292929</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">info@florexshop.lv</a>
+                    </li>
+                  </div>
+    
+                </ul>
+    
+              </div>
+            </div>
+          </nav>
         </div>
         <div class="nav__bottom d-none d-lg-block">
-            <nav class="navbar navbar-expand-lg h-100 p-0 flex-column">
-                <div class="container-fluid h-100">
-                    <a class="navbar-brand p-0 m-0 h-100" href="index.html">
-                        <img src="../images/logo.svg" alt="">
+          <nav class="navbar navbar-expand-lg h-100 p-0 flex-column">
+            <div class="container-fluid h-100">
+              <a class="navbar-brand p-0 m-0 h-100" href="index.html">
+                <img src="../images/logo.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 h-100 align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Срезанные цветы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Комнатные растения</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Композиции и букеты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Для подарка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Свадебная флористика</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pe-0" href="#">Для мероприятий</a>
+                  </li>
+                </ul>
+                <ul class="search__bar">
+                  <li><a href="#">
+                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M25.8542 14.8752C25.8542 20.9388 20.9386 25.8543 14.875 25.8543C8.81138 25.8543 3.89584 20.9388 3.89584 14.8752C3.89584 8.81154 8.81138 3.896 14.875 3.896C20.9386 3.896 25.8542 8.81154 25.8542 14.8752ZM14.875 27.9793C22.1122 27.9793 27.9792 22.1124 27.9792 14.8752C27.9792 7.63793 22.1122 1.771 14.875 1.771C7.63778 1.771 1.77084 7.63793 1.77084 14.8752C1.77084 22.1124 7.63778 27.9793 14.875 27.9793ZM30.3474 30.3475C29.255 31.4399 27.4839 31.4399 26.3915 30.3475L23.7382 27.6943C25.2826 26.6244 26.6243 25.2827 27.6941 23.7383L30.3474 26.3916C31.4398 27.484 31.4398 29.2551 30.3474 30.3475Z"
+                          fill="#6667AB" />
+                      </svg>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0 h-100 align-items-center">
-  
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Срезанные цветы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Комнатные растения</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Композиции и букеты</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Для подарка</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Свадебная флористика</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pe-0" href="#">Для мероприятий</a>
-                            </li>
-  
-  
-  
-                        </ul>
-                        <ul class="search__bar">
-                            <li><a href="#">
-                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M25.8542 14.8752C25.8542 20.9388 20.9386 25.8543 14.875 25.8543C8.81138 25.8543 3.89584 20.9388 3.89584 14.8752C3.89584 8.81154 8.81138 3.896 14.875 3.896C20.9386 3.896 25.8542 8.81154 25.8542 14.8752ZM14.875 27.9793C22.1122 27.9793 27.9792 22.1124 27.9792 14.8752C27.9792 7.63793 22.1122 1.771 14.875 1.771C7.63778 1.771 1.77084 7.63793 1.77084 14.8752C1.77084 22.1124 7.63778 27.9793 14.875 27.9793ZM30.3474 30.3475C29.255 31.4399 27.4839 31.4399 26.3915 30.3475L23.7382 27.6943C25.2826 26.6244 26.6243 25.2827 27.6941 23.7383L30.3474 26.3916C31.4398 27.484 31.4398 29.2551 30.3474 30.3475Z"
-                                            fill="#6667AB" />
-                                    </svg>
-                                </a></li>
-                        </ul>
-                        <ul class="shopping__bar">
-                            <li class="buy__bar">
-                                <a href="#">
-                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M17 15.5833C20.1296 15.5833 22.6667 13.0463 22.6667 9.91667C22.6667 6.78705 20.1296 4.25 17 4.25C13.8704 4.25 11.3333 6.78705 11.3333 9.91667C11.3333 13.0463 13.8704 15.5833 17 15.5833ZM17 29.75C22.4768 29.75 26.9167 27.2129 26.9167 24.0833C26.9167 20.9537 22.4768 18.4167 17 18.4167C11.5232 18.4167 7.08334 20.9537 7.08334 24.0833C7.08334 27.2129 11.5232 29.75 17 29.75Z"
-                                            fill="#6667AB" />
-                                    </svg>
-                                    <div class="add__number d-none">1</div>
-                                </a>
-                            </li>
-                            <li class="buy__bar">
-                                <a href="#" 
-                                type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M18.0838 6.66157L17 7.82598L15.9162 6.66158C12.9233 3.44614 8.07089 3.44614 5.07801 6.66157C2.08512 9.877 2.08512 15.0902 5.078 18.3057L14.8324 28.7854C16.0295 30.0715 17.9705 30.0715 19.1676 28.7854L28.922 18.3057C31.9149 15.0902 31.9149 9.877 28.922 6.66157C25.9291 3.44614 21.0767 3.44614 18.0838 6.66157Z"
-                                            fill="#6667AB" />
-                                    </svg>
-                                    <div class="add__number">1</div>
-                                </a>
-                            </li>
-                            <li class="buy__bar me-0">
-                                <a href="#"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M17 2.30225C14.066 2.30225 11.6875 4.68073 11.6875 7.61475V9.04526C9.00675 9.23221 6.80075 11.2922 6.46288 13.9952L5.04621 25.3285C4.62344 28.7107 7.26063 31.6981 10.6691 31.6981H23.3309C26.7394 31.6981 29.3766 28.7107 28.9538 25.3285L27.5372 13.9952C27.1993 11.2922 24.9933 9.23221 22.3125 9.04526V7.61475C22.3125 4.68073 19.934 2.30225 17 2.30225ZM20.1875 9.03141V7.61475C20.1875 5.85434 18.7604 4.42725 17 4.42725C15.2396 4.42725 13.8125 5.85434 13.8125 7.61475V9.03141H20.1875Z"
-                                            fill="#6667AB" />
-                                    </svg>
-                                    <div class="add__number">1</div>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="flag__bar">
-                            <li>
-                                <div class="dropdown border-0 shadow-none">
-                                    <a class="btn dropdown-toggle  border-0 shadow-none d-flex align-items-center"
-                                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="dropdown__img"><img class="w-100" src="../images/flag_Latvian.png"
-                                                alt=""></div>
-                                        <div class="dropdown__text">Latviski</div>
-                                    </a>
-  
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <div class="dropdown__img"><img class="w-100"
-                                                        src="../images/Russian.png" alt=""></div>
-                                                <div class="dropdown__text">Russian</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <div class="dropdown__img"><img class="w-100"
-                                                        src="../images/Germany.png" alt=""></div>
-                                                <div class="dropdown__text">Germany</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <div class="dropdown__img"><img class="w-100"
-                                                        src="../images/Spain.png" alt=""></div>
-                                                <div class="dropdown__text">Spain</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                </a>
-                            </li>
-                        </ul>
+                    <input type="text" class="form-control" placeholder="Search">
+                  </li>
+                </ul>
+                <ul class="shopping__bar">
+                  <li class="buy__bar">
+                    <a href="#">
+                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M17 15.5833C20.1296 15.5833 22.6667 13.0463 22.6667 9.91667C22.6667 6.78705 20.1296 4.25 17 4.25C13.8704 4.25 11.3333 6.78705 11.3333 9.91667C11.3333 13.0463 13.8704 15.5833 17 15.5833ZM17 29.75C22.4768 29.75 26.9167 27.2129 26.9167 24.0833C26.9167 20.9537 22.4768 18.4167 17 18.4167C11.5232 18.4167 7.08334 20.9537 7.08334 24.0833C7.08334 27.2129 11.5232 29.75 17 29.75Z"
+                          fill="#6667AB" />
+                      </svg>
+                      <div class="add__number d-none">1</div>
+                    </a>
+                  </li>
+                  <li class="buy__bar">
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M18.0838 6.66157L17 7.82598L15.9162 6.66158C12.9233 3.44614 8.07089 3.44614 5.07801 6.66157C2.08512 9.877 2.08512 15.0902 5.078 18.3057L14.8324 28.7854C16.0295 30.0715 17.9705 30.0715 19.1676 28.7854L28.922 18.3057C31.9149 15.0902 31.9149 9.877 28.922 6.66157C25.9291 3.44614 21.0767 3.44614 18.0838 6.66157Z"
+                          fill="#6667AB" />
+                      </svg>
+                      <div class="add__number">1</div>
+                    </a>
+                  </li>
+                  <li class="buy__bar me-0">
+                    <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight">
+                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M17 2.30225C14.066 2.30225 11.6875 4.68073 11.6875 7.61475V9.04526C9.00675 9.23221 6.80075 11.2922 6.46288 13.9952L5.04621 25.3285C4.62344 28.7107 7.26063 31.6981 10.6691 31.6981H23.3309C26.7394 31.6981 29.3766 28.7107 28.9538 25.3285L27.5372 13.9952C27.1993 11.2922 24.9933 9.23221 22.3125 9.04526V7.61475C22.3125 4.68073 19.934 2.30225 17 2.30225ZM20.1875 9.03141V7.61475C20.1875 5.85434 18.7604 4.42725 17 4.42725C15.2396 4.42725 13.8125 5.85434 13.8125 7.61475V9.03141H20.1875Z"
+                          fill="#6667AB" />
+                      </svg>
+                      <div class="add__number">1</div>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="flag__bar">
+                  <li>
+                    <div class="dropdown border-0 shadow-none">
+                      <a class="btn dropdown-toggle  border-0 shadow-none d-flex align-items-center" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown__img"><img class="w-100" src="../images/flag_Latvian.png" alt=""></div>
+                        <div class="dropdown__text">Latviski</div>
+                      </a>
+    
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div class="dropdown__img"><img class="w-100" src="../images/Russian.png" alt=""></div>
+                            <div class="dropdown__text">Russian</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div class="dropdown__img"><img class="w-100" src="../images/Germany.png" alt=""></div>
+                            <div class="dropdown__text">Germany</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div class="dropdown__img"><img class="w-100" src="../images/Spain.png" alt=""></div>
+                            <div class="dropdown__text">Spain</div>
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                </div>
-                
-            </nav>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+          </nav>
         </div>
         <!-- END HEADER NEXT LINE  -->
         <div class="spearte__header nav__bottom h-auto justify-content-end align-items-center">
           <ul class="search__bar py-4 pe-5 h-100">
-              <li><a href="#">
-                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                              d="M25.8542 14.8752C25.8542 20.9388 20.9386 25.8543 14.875 25.8543C8.81138 25.8543 3.89584 20.9388 3.89584 14.8752C3.89584 8.81154 8.81138 3.896 14.875 3.896C20.9386 3.896 25.8542 8.81154 25.8542 14.8752ZM14.875 27.9793C22.1122 27.9793 27.9792 22.1124 27.9792 14.8752C27.9792 7.63793 22.1122 1.771 14.875 1.771C7.63778 1.771 1.77084 7.63793 1.77084 14.8752C1.77084 22.1124 7.63778 27.9793 14.875 27.9793ZM30.3474 30.3475C29.255 31.4399 27.4839 31.4399 26.3915 30.3475L23.7382 27.6943C25.2826 26.6244 26.6243 25.2827 27.6941 23.7383L30.3474 26.3916C31.4398 27.484 31.4398 29.2551 30.3474 30.3475Z"
-                              fill="#6667AB" />
-                      </svg>
-                  </a></li>
+            <li><a href="#" class="field">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M25.8542 14.8752C25.8542 20.9388 20.9386 25.8543 14.875 25.8543C8.81138 25.8543 3.89584 20.9388 3.89584 14.8752C3.89584 8.81154 8.81138 3.896 14.875 3.896C20.9386 3.896 25.8542 8.81154 25.8542 14.8752ZM14.875 27.9793C22.1122 27.9793 27.9792 22.1124 27.9792 14.8752C27.9792 7.63793 22.1122 1.771 14.875 1.771C7.63778 1.771 1.77084 7.63793 1.77084 14.8752C1.77084 22.1124 7.63778 27.9793 14.875 27.9793ZM30.3474 30.3475C29.255 31.4399 27.4839 31.4399 26.3915 30.3475L23.7382 27.6943C25.2826 26.6244 26.6243 25.2827 27.6941 23.7383L30.3474 26.3916C31.4398 27.484 31.4398 29.2551 30.3474 30.3475Z"
+                    fill="#6667AB" />
+                </svg>
+              </a>
+    
+              <input type="text" class="form-control" placeholder="Search">
+            </li>
           </ul>
           <ul class="shopping__bar py-4 px-5 w-auto">
-              <li class="buy__bar">
-                  <a href="#">
-                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                              d="M17 15.5833C20.1296 15.5833 22.6667 13.0463 22.6667 9.91667C22.6667 6.78705 20.1296 4.25 17 4.25C13.8704 4.25 11.3333 6.78705 11.3333 9.91667C11.3333 13.0463 13.8704 15.5833 17 15.5833ZM17 29.75C22.4768 29.75 26.9167 27.2129 26.9167 24.0833C26.9167 20.9537 22.4768 18.4167 17 18.4167C11.5232 18.4167 7.08334 20.9537 7.08334 24.0833C7.08334 27.2129 11.5232 29.75 17 29.75Z"
-                              fill="#6667AB" />
-                      </svg>
-                      <div class="add__number d-none">1</div>
-                  </a>
-              </li>
-              <li class="buy__bar">
-                  <a href="#" 
-                  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                              d="M18.0838 6.66157L17 7.82598L15.9162 6.66158C12.9233 3.44614 8.07089 3.44614 5.07801 6.66157C2.08512 9.877 2.08512 15.0902 5.078 18.3057L14.8324 28.7854C16.0295 30.0715 17.9705 30.0715 19.1676 28.7854L28.922 18.3057C31.9149 15.0902 31.9149 9.877 28.922 6.66157C25.9291 3.44614 21.0767 3.44614 18.0838 6.66157Z"
-                              fill="#6667AB" />
-                      </svg>
-                      <div class="add__number">1</div>
-                  </a>
-              </li>
-              <li class="buy__bar me-0">
-                  <a href="#"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                      <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                              d="M17 2.30225C14.066 2.30225 11.6875 4.68073 11.6875 7.61475V9.04526C9.00675 9.23221 6.80075 11.2922 6.46288 13.9952L5.04621 25.3285C4.62344 28.7107 7.26063 31.6981 10.6691 31.6981H23.3309C26.7394 31.6981 29.3766 28.7107 28.9538 25.3285L27.5372 13.9952C27.1993 11.2922 24.9933 9.23221 22.3125 9.04526V7.61475C22.3125 4.68073 19.934 2.30225 17 2.30225ZM20.1875 9.03141V7.61475C20.1875 5.85434 18.7604 4.42725 17 4.42725C15.2396 4.42725 13.8125 5.85434 13.8125 7.61475V9.03141H20.1875Z"
-                              fill="#6667AB" />
-                      </svg>
-                      <div class="add__number">1</div>
-                  </a>
-              </li>
+            <li class="buy__bar">
+              <a href="#">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17 15.5833C20.1296 15.5833 22.6667 13.0463 22.6667 9.91667C22.6667 6.78705 20.1296 4.25 17 4.25C13.8704 4.25 11.3333 6.78705 11.3333 9.91667C11.3333 13.0463 13.8704 15.5833 17 15.5833ZM17 29.75C22.4768 29.75 26.9167 27.2129 26.9167 24.0833C26.9167 20.9537 22.4768 18.4167 17 18.4167C11.5232 18.4167 7.08334 20.9537 7.08334 24.0833C7.08334 27.2129 11.5232 29.75 17 29.75Z"
+                    fill="#6667AB" />
+                </svg>
+                <div class="add__number d-none">1</div>
+              </a>
+            </li>
+            <li class="buy__bar">
+              <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.0838 6.66157L17 7.82598L15.9162 6.66158C12.9233 3.44614 8.07089 3.44614 5.07801 6.66157C2.08512 9.877 2.08512 15.0902 5.078 18.3057L14.8324 28.7854C16.0295 30.0715 17.9705 30.0715 19.1676 28.7854L28.922 18.3057C31.9149 15.0902 31.9149 9.877 28.922 6.66157C25.9291 3.44614 21.0767 3.44614 18.0838 6.66157Z"
+                    fill="#6667AB" />
+                </svg>
+                <div class="add__number">1</div>
+              </a>
+            </li>
+            <li class="buy__bar me-0">
+              <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17 2.30225C14.066 2.30225 11.6875 4.68073 11.6875 7.61475V9.04526C9.00675 9.23221 6.80075 11.2922 6.46288 13.9952L5.04621 25.3285C4.62344 28.7107 7.26063 31.6981 10.6691 31.6981H23.3309C26.7394 31.6981 29.3766 28.7107 28.9538 25.3285L27.5372 13.9952C27.1993 11.2922 24.9933 9.23221 22.3125 9.04526V7.61475C22.3125 4.68073 19.934 2.30225 17 2.30225ZM20.1875 9.03141V7.61475C20.1875 5.85434 18.7604 4.42725 17 4.42725C15.2396 4.42725 13.8125 5.85434 13.8125 7.61475V9.03141H20.1875Z"
+                    fill="#6667AB" />
+                </svg>
+                <div class="add__number">1</div>
+              </a>
+            </li>
           </ul>
           <ul class="flag__bar ms-4 me-0">
             <li>
-                <div class="dropdown border-0 shadow-none">
-                    <a class="btn dropdown-toggle  border-0 shadow-none d-flex align-items-center"
-                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <div class="dropdown__img"><img class="w-100" src="../images/flag_Latvian.png"
-                                alt=""></div>
-                        <div class="dropdown__text">Latviski</div>
-                    </a>
-  
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                <div class="dropdown__img"><img class="w-100"
-                                        src="../images/Russian.png" alt=""></div>
-                                <div class="dropdown__text">Russian</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                <div class="dropdown__img"><img class="w-100"
-                                        src="../images/Germany.png" alt=""></div>
-                                <div class="dropdown__text">Germany</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                <div class="dropdown__img"><img class="w-100"
-                                        src="../images/Spain.png" alt=""></div>
-                                <div class="dropdown__text">Spain</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+              <div class="dropdown border-0 shadow-none">
+                <a class="btn dropdown-toggle  border-0 shadow-none d-flex align-items-center" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="dropdown__img"><img class="w-100" src="../images/flag_Latvian.png" alt=""></div>
+                  <div class="dropdown__text">Latviski</div>
                 </a>
+    
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div class="dropdown__img"><img class="w-100" src="../images/Russian.png" alt=""></div>
+                      <div class="dropdown__text">Russian</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div class="dropdown__img"><img class="w-100" src="../images/Germany.png" alt=""></div>
+                      <div class="dropdown__text">Germany</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div class="dropdown__img"><img class="w-100" src="../images/Spain.png" alt=""></div>
+                      <div class="dropdown__text">Spain</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              </a>
             </li>
-        </ul>
+          </ul>
         </div>
         <!-- MOBO VIEW  -->
         <div class="d-block d-lg-none h-100 mobile">
-            <div class="mobo bg-white h-100 d-flex align-items-center justify-content-between">
-                <div class="h-100">
-                    <a class="brand p-0 m-0 h-100" href="index.html">
-                        <img src="../images/logo.svg" alt="">
-                    </a>
-                </div>
-                <div class="small__menu">
-                    <a class="btn border-0 rounded-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                        aria-controls="offcanvasExample">
-                        <img src="../images/menu.svg" alt="">
-                    </a>
-                </div>
-                <div class="mobo__shopping">
-                    <ul class="shopping__bar">
-                        <li class="buy__bar">
-                            <a href="#" 
-                            >
-                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M17 15.5833C20.1296 15.5833 22.6667 13.0463 22.6667 9.91667C22.6667 6.78705 20.1296 4.25 17 4.25C13.8704 4.25 11.3333 6.78705 11.3333 9.91667C11.3333 13.0463 13.8704 15.5833 17 15.5833ZM17 29.75C22.4768 29.75 26.9167 27.2129 26.9167 24.0833C26.9167 20.9537 22.4768 18.4167 17 18.4167C11.5232 18.4167 7.08334 20.9537 7.08334 24.0833C7.08334 27.2129 11.5232 29.75 17 29.75Z"
-                                        fill="#6667AB" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="buy__bar">
-                            <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M18.0838 6.66157L17 7.82598L15.9162 6.66158C12.9233 3.44614 8.07089 3.44614 5.07801 6.66157C2.08512 9.877 2.08512 15.0902 5.078 18.3057L14.8324 28.7854C16.0295 30.0715 17.9705 30.0715 19.1676 28.7854L28.922 18.3057C31.9149 15.0902 31.9149 9.877 28.922 6.66157C25.9291 3.44614 21.0767 3.44614 18.0838 6.66157Z"
-                                        fill="#6667AB" />
-                                </svg>
-                                <div class="add__number">1</div>
-                            </a>
-                        </li>
-                        <li class="buy__bar ">
-                            <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M17 2.30225C14.066 2.30225 11.6875 4.68073 11.6875 7.61475V9.04526C9.00675 9.23221 6.80075 11.2922 6.46288 13.9952L5.04621 25.3285C4.62344 28.7107 7.26063 31.6981 10.6691 31.6981H23.3309C26.7394 31.6981 29.3766 28.7107 28.9538 25.3285L27.5372 13.9952C27.1993 11.2922 24.9933 9.23221 22.3125 9.04526V7.61475C22.3125 4.68073 19.934 2.30225 17 2.30225ZM20.1875 9.03141V7.61475C20.1875 5.85434 18.7604 4.42725 17 4.42725C15.2396 4.42725 13.8125 5.85434 13.8125 7.61475V9.03141H20.1875Z"
-                                        fill="#6667AB" />
-                                </svg>
-                                <div class="add__number">1</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+          <div class="mobo bg-white h-100 d-flex align-items-center justify-content-between">
+            <div class="h-100">
+              <a class="brand p-0 m-0 h-100" href="index.html">
+                <img src="../images/logo.svg" alt="">
+              </a>
             </div>
-            <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close ms-auto shadow-none" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <form class="d-flex position-relative serach__menu" role="search">
-                        <input class="form-control me-2 shadow-none" type="search" placeholder="Поиск"
-                            aria-label="Search">
-                        <button class="btn position-absolute btn-close shadow-none" type="submit"></button>
-                    </form>
-                    <ul class="menu">
-                        <li><a href="#">Срезанные цветы</a></li>
-                        <li><a href="#">kомнатные растения</a></li>
-                        <li><a href="#">Композиции и букеты</a></li>
-                        <li><a href="#">Для подарка</a></li>
-                        <li><a href="#">Свадебная флористика</a></li>
-                        <li><a href="#">Для мероприятий</a></li>
-                    </ul>
-                    <ul class="menu">
-                        <li><a href="#">Доставка и оплата</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                    <ul class="menu">
-                        <li><a href="#">Riga, Kauguru iela 6</a></li>
-                        <li><a href="#">+37129292929</a></li>
-                        <li><a href="#">info@florexshop.lv</a></li>
-                    </ul>
-                    <ul class="flag">
-                        <li class="d-flex align-items-center">
-                            <div class="flag__img"><img class="w-100" src="../images/flag_Latvian.png" alt=""></div>
-                            <div class="flag__text">Latviski</div>
-                        </li>
-                    </ul>
-  
-  
-                </div>
-  
+            <div class="small__menu">
+              <a class="btn border-0 rounded-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <img src="../images/menu.svg" alt="">
+              </a>
             </div>
+            <div class="mobo__shopping">
+              <ul class="shopping__bar">
+                <li class="buy__bar">
+                  <a href="#">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17 15.5833C20.1296 15.5833 22.6667 13.0463 22.6667 9.91667C22.6667 6.78705 20.1296 4.25 17 4.25C13.8704 4.25 11.3333 6.78705 11.3333 9.91667C11.3333 13.0463 13.8704 15.5833 17 15.5833ZM17 29.75C22.4768 29.75 26.9167 27.2129 26.9167 24.0833C26.9167 20.9537 22.4768 18.4167 17 18.4167C11.5232 18.4167 7.08334 20.9537 7.08334 24.0833C7.08334 27.2129 11.5232 29.75 17 29.75Z"
+                        fill="#6667AB" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="buy__bar">
+                  <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M18.0838 6.66157L17 7.82598L15.9162 6.66158C12.9233 3.44614 8.07089 3.44614 5.07801 6.66157C2.08512 9.877 2.08512 15.0902 5.078 18.3057L14.8324 28.7854C16.0295 30.0715 17.9705 30.0715 19.1676 28.7854L28.922 18.3057C31.9149 15.0902 31.9149 9.877 28.922 6.66157C25.9291 3.44614 21.0767 3.44614 18.0838 6.66157Z"
+                        fill="#6667AB" />
+                    </svg>
+                    <div class="add__number">1</div>
+                  </a>
+                </li>
+                <li class="buy__bar ">
+                  <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17 2.30225C14.066 2.30225 11.6875 4.68073 11.6875 7.61475V9.04526C9.00675 9.23221 6.80075 11.2922 6.46288 13.9952L5.04621 25.3285C4.62344 28.7107 7.26063 31.6981 10.6691 31.6981H23.3309C26.7394 31.6981 29.3766 28.7107 28.9538 25.3285L27.5372 13.9952C27.1993 11.2922 24.9933 9.23221 22.3125 9.04526V7.61475C22.3125 4.68073 19.934 2.30225 17 2.30225ZM20.1875 9.03141V7.61475C20.1875 5.85434 18.7604 4.42725 17 4.42725C15.2396 4.42725 13.8125 5.85434 13.8125 7.61475V9.03141H20.1875Z"
+                        fill="#6667AB" />
+                    </svg>
+                    <div class="add__number">1</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close ms-auto shadow-none" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <form class="d-flex position-relative serach__menu" role="search">
+                <input class="form-control me-2 searchField shadow-none" type="search" placeholder="Поиск"
+                  aria-label="Search">
+                <button class="btn position-absolute btn-close shadow-none" type="submit"></button>
+                <ul class="menuSearch">
+                  <li class="media">
+                    <div class="img">
+                      <img src="../images/gallery_01.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <p>Сезонное предложение </p>
+                      <p>PINK ORCHID</p>
+                    </div>
+                  </li>
+                  <li class="media">
+                    <div class="img">
+                      <img src="../images/gallery_01.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <p>Сезонное предложение </p>
+                      <p>Red ORCHID</p>
+                    </div>
+                  </li>
+                  <li class="media">
+                    <div class="img">
+                      <img src="../images/gallery_01.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <p>Сезонное предложение </p>
+                      <p>Brown ORCHID</p>
+                    </div>
+                  </li>
+                </ul>
+              </form>
+              <ul class="menu">
+                <li><a href="#">Срезанные цветы</a></li>
+                <li><a href="#">kомнатные растения</a></li>
+                <li><a href="#">Композиции и букеты</a></li>
+                <li><a href="#">Для подарка</a></li>
+                <li><a href="#">Свадебная флористика</a></li>
+                <li><a href="#">Для мероприятий</a></li>
+              </ul>
+              <ul class="menu">
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+              <ul class="menu">
+                <li><a href="#">Riga, Kauguru iela 6</a></li>
+                <li><a href="#">+37129292929</a></li>
+                <li><a href="#">info@florexshop.lv</a></li>
+              </ul>
+              <ul class="flag">
+                <li class="d-flex align-items-center">
+                  <div class="flag__img"><img class="w-100" src="../images/flag_Latvian.png" alt=""></div>
+                  <div class="flag__text">Latviski</div>
+                </li>
+              </ul>
+    
+    
+            </div>
+    
+          </div>
       </header>
-      <div class="offcanvas carty offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-          <div class="offcanvas-header">
-              <button type="button" class="btn-close text-white m-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  
-              <h5 class="offcanvas-title" id="offcanvasRightLabel">Tavs iepirkumu grozs</h5>
-          </div>
-          <div class="offcanvas-body">
-              <div class="total__items row justify-content-between ">
-                  <div>
-                      <div class="items__layouts bb__line">
-                          <div class="items__layouts_dele">
-                              <a href="#">
-                                  <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.40627 0.890599C5.7772 0.334202 6.40166 0 7.07037 0H8.92963C9.59834 0 10.2228 0.334202 10.5937 0.8906L11.5 2.25H15.25C15.6642 2.25 16 2.58579 16 3C16 3.41421 15.6642 3.75 15.25 3.75H0.75C0.335786 3.75 0 3.41421 0 3C0 2.58579 0.335786 2.25 0.75 2.25H4.5L5.40627 0.890599ZM11 20H5C2.79086 20 1 18.2091 1 16V5H15V16C15 18.2091 13.2091 20 11 20ZM6 8.25C6.41421 8.25 6.75 8.58579 6.75 9V16C6.75 16.4142 6.41421 16.75 6 16.75C5.58579 16.75 5.25 16.4142 5.25 16L5.25 9C5.25 8.58579 5.58579 8.25 6 8.25ZM10 8.25C10.4142 8.25 10.75 8.58579 10.75 9V16C10.75 16.4142 10.4142 16.75 10 16.75C9.58579 16.75 9.25 16.4142 9.25 16V9C9.25 8.58579 9.58579 8.25 10 8.25Z" fill="#6667AB"/>
-                                      </svg>
-                              </a>
-                                  
-                          </div>
-                          <div class="items__layouts_img">
-                              <img class="w-100" src="../images/demo__pro.png" alt="">
-                          </div>
-                          <div class="items__layouts_tittle d-flex flex-column h-100">
-                              <div class="items__layouts_tittle_name">Сезонное предложение 
-                                  PINK ORCHID</div>
-                                  <div class="items__layouts_prize ms-0 d-none">
-                                      <div class="items__layouts_tittle_name">€30.00</div>
-                                  </div>
-                          </div>
-                          <div class="items__layouts_prize">
-                              <div class="items__layouts_tittle_name">€30.00</div>
-                          </div>
-                          
-                          
-                      </div>
-                      <div class="items__layouts bb__line">
-                          <div class="items__layouts_dele">
-                              <a href="#">
-                                  <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.40627 0.890599C5.7772 0.334202 6.40166 0 7.07037 0H8.92963C9.59834 0 10.2228 0.334202 10.5937 0.8906L11.5 2.25H15.25C15.6642 2.25 16 2.58579 16 3C16 3.41421 15.6642 3.75 15.25 3.75H0.75C0.335786 3.75 0 3.41421 0 3C0 2.58579 0.335786 2.25 0.75 2.25H4.5L5.40627 0.890599ZM11 20H5C2.79086 20 1 18.2091 1 16V5H15V16C15 18.2091 13.2091 20 11 20ZM6 8.25C6.41421 8.25 6.75 8.58579 6.75 9V16C6.75 16.4142 6.41421 16.75 6 16.75C5.58579 16.75 5.25 16.4142 5.25 16L5.25 9C5.25 8.58579 5.58579 8.25 6 8.25ZM10 8.25C10.4142 8.25 10.75 8.58579 10.75 9V16C10.75 16.4142 10.4142 16.75 10 16.75C9.58579 16.75 9.25 16.4142 9.25 16V9C9.25 8.58579 9.58579 8.25 10 8.25Z" fill="#6667AB"/>
-                                      </svg>
-                              </a>
-                                  
-                          </div>
-                          <div class="items__layouts_img">
-                              <img class="w-100" src="../images/demo__pro.png" alt="">
-                          </div>
-                          <div class="items__layouts_tittle d-flex flex-column h-100">
-                              <div class="items__layouts_tittle_name">Сезонное предложение 
-                                  PINK ORCHID</div>
-                                  <div class="items__layouts_prize ms-0 d-none">
-                                      <div class="items__layouts_tittle_name">€30.00</div>
-                                  </div>
-                          </div>
-                          <div class="items__layouts_prize">
-                              <div class="items__layouts_tittle_name">€30.00</div>
-                          </div>
-                          
-                          
-                      </div>
-                      <div class="items__layouts bb__line">
-                          <div class="items__layouts_dele">
-                              <a href="#">
-                                  <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.40627 0.890599C5.7772 0.334202 6.40166 0 7.07037 0H8.92963C9.59834 0 10.2228 0.334202 10.5937 0.8906L11.5 2.25H15.25C15.6642 2.25 16 2.58579 16 3C16 3.41421 15.6642 3.75 15.25 3.75H0.75C0.335786 3.75 0 3.41421 0 3C0 2.58579 0.335786 2.25 0.75 2.25H4.5L5.40627 0.890599ZM11 20H5C2.79086 20 1 18.2091 1 16V5H15V16C15 18.2091 13.2091 20 11 20ZM6 8.25C6.41421 8.25 6.75 8.58579 6.75 9V16C6.75 16.4142 6.41421 16.75 6 16.75C5.58579 16.75 5.25 16.4142 5.25 16L5.25 9C5.25 8.58579 5.58579 8.25 6 8.25ZM10 8.25C10.4142 8.25 10.75 8.58579 10.75 9V16C10.75 16.4142 10.4142 16.75 10 16.75C9.58579 16.75 9.25 16.4142 9.25 16V9C9.25 8.58579 9.58579 8.25 10 8.25Z" fill="#6667AB"/>
-                                      </svg>
-                              </a>
-                                  
-                          </div>
-                          <div class="items__layouts_img">
-                              <img class="w-100" src="../images/demo__pro.png" alt="">
-                          </div>
-                          <div class="items__layouts_tittle d-flex flex-column h-100">
-                              <div class="items__layouts_tittle_name">Сезонное предложение 
-                                  PINK ORCHID</div>
-                                  <div class="items__layouts_prize ms-0 d-none">
-                                      <div class="items__layouts_tittle_name">€30.00</div>
-                                  </div>
-                          </div>
-                          <div class="items__layouts_prize">
-                              <div class="items__layouts_tittle_name">€30.00</div>
-                          </div>
-                          
-                          
-                      </div>
-                  </div>
-                  <div class="total__bill_amount bb__line">
-                      <div class="total__bill_amount_head">Kopsumma</div>
-                      <div class="total__bill_amount_prize">€120.00</div>
-                  </div>
-                  <div class="total__bill_btns">
-                      <a href="#" class="total__bill_btn">ОТКРЫТЬ КОРЗИНУ</a>
-                      <a href="#" class="total__bill_btn outline">ОТКРЫТЬ КОРЗИНУ</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- MOADAL -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-              <button type="button" class="btn shadow-none ms-auto" data-bs-dismiss="modal" aria-label="Close">
-                  <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1.50913 1L26.71 26.2009M1 26.2009L26.2009 1" stroke="#6667AB"/>
-                      </svg>
-                      
-              </button>
-              </div>
-              <div class="modal-body">
-              <h3>Ссылка скопирована <br>
-                  в буфер обмена</h3>
-                  <p>
-                      www.florexshop.lv/category/offers/pink-orchid
-                  </p>
-                  <div class="product__item_add d-flex justify-content-center mb-md-5 pb-5">
-                      <a href="#" class="product__item_add_btn mx-auto">
-                          СКОПИРОВАТЬ ЕЩЕ РАЗ
-                      </a>
-                  </div>
-              </div>
-              
-          </div>
-          </div>
-      </div>
-      <!-- ======================== -->
-      <!-- ======================== -->
-      <!-- ======================== -->
-      <!-- ======================== -->
+    <div class="offcanvas carty offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-white m-0" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Tavs iepirkumu grozs</h5>
+        </div>
+        <div class="offcanvas-body">
+            <div class="total__items row justify-content-between ">
+                <div>
+                    <div class="items__layouts bb__line">
+                        <div class="items__layouts_dele">
+                            <a href="#">
+                                <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.40627 0.890599C5.7772 0.334202 6.40166 0 7.07037 0H8.92963C9.59834 0 10.2228 0.334202 10.5937 0.8906L11.5 2.25H15.25C15.6642 2.25 16 2.58579 16 3C16 3.41421 15.6642 3.75 15.25 3.75H0.75C0.335786 3.75 0 3.41421 0 3C0 2.58579 0.335786 2.25 0.75 2.25H4.5L5.40627 0.890599ZM11 20H5C2.79086 20 1 18.2091 1 16V5H15V16C15 18.2091 13.2091 20 11 20ZM6 8.25C6.41421 8.25 6.75 8.58579 6.75 9V16C6.75 16.4142 6.41421 16.75 6 16.75C5.58579 16.75 5.25 16.4142 5.25 16L5.25 9C5.25 8.58579 5.58579 8.25 6 8.25ZM10 8.25C10.4142 8.25 10.75 8.58579 10.75 9V16C10.75 16.4142 10.4142 16.75 10 16.75C9.58579 16.75 9.25 16.4142 9.25 16V9C9.25 8.58579 9.58579 8.25 10 8.25Z"
+                                        fill="#6667AB" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <div class="items__layouts_img">
+                            <img class="w-100" src="../images/demo__pro.png" alt="">
+                        </div>
+                        <div class="items__layouts_tittle d-flex flex-column h-100">
+                            <div class="items__layouts_tittle_name">Сезонное предложение
+                                PINK ORCHID</div>
+                            <div class="items__layouts_prize ms-0 d-none">
+                                <div class="items__layouts_tittle_name">€30.00</div>
+                            </div>
+                        </div>
+                        <div class="items__layouts_prize">
+                            <div class="items__layouts_tittle_name">€30.00</div>
+                        </div>
+
+
+                    </div>
+                    <div class="items__layouts bb__line">
+                        <div class="items__layouts_dele">
+                            <a href="#">
+                                <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.40627 0.890599C5.7772 0.334202 6.40166 0 7.07037 0H8.92963C9.59834 0 10.2228 0.334202 10.5937 0.8906L11.5 2.25H15.25C15.6642 2.25 16 2.58579 16 3C16 3.41421 15.6642 3.75 15.25 3.75H0.75C0.335786 3.75 0 3.41421 0 3C0 2.58579 0.335786 2.25 0.75 2.25H4.5L5.40627 0.890599ZM11 20H5C2.79086 20 1 18.2091 1 16V5H15V16C15 18.2091 13.2091 20 11 20ZM6 8.25C6.41421 8.25 6.75 8.58579 6.75 9V16C6.75 16.4142 6.41421 16.75 6 16.75C5.58579 16.75 5.25 16.4142 5.25 16L5.25 9C5.25 8.58579 5.58579 8.25 6 8.25ZM10 8.25C10.4142 8.25 10.75 8.58579 10.75 9V16C10.75 16.4142 10.4142 16.75 10 16.75C9.58579 16.75 9.25 16.4142 9.25 16V9C9.25 8.58579 9.58579 8.25 10 8.25Z"
+                                        fill="#6667AB" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <div class="items__layouts_img">
+                            <img class="w-100" src="../images/demo__pro.png" alt="">
+                        </div>
+                        <div class="items__layouts_tittle d-flex flex-column h-100">
+                            <div class="items__layouts_tittle_name">Сезонное предложение
+                                PINK ORCHID</div>
+                            <div class="items__layouts_prize ms-0 d-none">
+                                <div class="items__layouts_tittle_name">€30.00</div>
+                            </div>
+                        </div>
+                        <div class="items__layouts_prize">
+                            <div class="items__layouts_tittle_name">€30.00</div>
+                        </div>
+
+
+                    </div>
+                    <div class="items__layouts bb__line">
+                        <div class="items__layouts_dele">
+                            <a href="#">
+                                <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.40627 0.890599C5.7772 0.334202 6.40166 0 7.07037 0H8.92963C9.59834 0 10.2228 0.334202 10.5937 0.8906L11.5 2.25H15.25C15.6642 2.25 16 2.58579 16 3C16 3.41421 15.6642 3.75 15.25 3.75H0.75C0.335786 3.75 0 3.41421 0 3C0 2.58579 0.335786 2.25 0.75 2.25H4.5L5.40627 0.890599ZM11 20H5C2.79086 20 1 18.2091 1 16V5H15V16C15 18.2091 13.2091 20 11 20ZM6 8.25C6.41421 8.25 6.75 8.58579 6.75 9V16C6.75 16.4142 6.41421 16.75 6 16.75C5.58579 16.75 5.25 16.4142 5.25 16L5.25 9C5.25 8.58579 5.58579 8.25 6 8.25ZM10 8.25C10.4142 8.25 10.75 8.58579 10.75 9V16C10.75 16.4142 10.4142 16.75 10 16.75C9.58579 16.75 9.25 16.4142 9.25 16V9C9.25 8.58579 9.58579 8.25 10 8.25Z"
+                                        fill="#6667AB" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <div class="items__layouts_img">
+                            <img class="w-100" src="../images/demo__pro.png" alt="">
+                        </div>
+                        <div class="items__layouts_tittle d-flex flex-column h-100">
+                            <div class="items__layouts_tittle_name">Сезонное предложение
+                                PINK ORCHID</div>
+                            <div class="items__layouts_prize ms-0 d-none">
+                                <div class="items__layouts_tittle_name">€30.00</div>
+                            </div>
+                        </div>
+                        <div class="items__layouts_prize">
+                            <div class="items__layouts_tittle_name">€30.00</div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="total__bill_amount bb__line">
+                    <div class="total__bill_amount_head">Kopsumma</div>
+                    <div class="total__bill_amount_prize">€120.00</div>
+                </div>
+                <div class="total__bill_btns">
+                    <a href="#" class="total__bill_btn">ОТКРЫТЬ КОРЗИНУ</a>
+                    <a href="#" class="total__bill_btn outline">ОТКРЫТЬ КОРЗИНУ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOADAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn shadow-none ms-auto" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.50913 1L26.71 26.2009M1 26.2009L26.2009 1" stroke="#6667AB" />
+                        </svg>
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>Ссылка скопирована <br>
+                        в буфер обмена</h3>
+                    <p>
+                        www.florexshop.lv/category/offers/pink-orchid
+                    </p>
+                    <div class="product__item_add d-flex justify-content-center mb-md-5 pb-5">
+                        <a href="#" class="product__item_add_btn mx-auto">
+                            СКОПИРОВАТЬ ЕЩЕ РАЗ
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ======================== -->
+    <!-- ======================== -->
+    <!-- ======================== -->
+    <!-- ======================== -->
     <section class="head__border start__space end__space">
-        <div class="container-fluid">
-            <div class="row mx-auto">
-                <div class="col-md-10 col-11 px-md-5 px-3 mx-auto overflow-scroll">
+        <div class="container-fluid my__container">
+            <div class="row">
+                <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Главная</a></li>
@@ -518,29 +535,24 @@
                             <li class="breadcrumb-item active" aria-current="page">Сезонное предложение PINK ORCHID</li>
                         </ol>
                     </nav>
-                    
-                </div>
-                <div class="col-md-10 col-11 px-md-5 px-3 mx-auto">
-                    
                     <a href="#" class="btn__back_pg">
                         <span>
-                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.646446 3.64645C0.451184 3.84171 0.451184 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM12 3.5L1 3.5V4.5L12 4.5V3.5Z" fill="#6667AB"/>
-                                </svg>
-                                
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.646446 3.64645C0.451184 3.84171 0.451184 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM12 3.5L1 3.5V4.5L12 4.5V3.5Z"
+                                    fill="#6667AB" />
+                            </svg>
                         </span>
                         Вернуться назад
                     </a>
                 </div>
             </div>
-            <div class="row mx-auto">
-                <div class="col-md-10 col-11 px-md-5 px-3 mx-auto">
-
-                    <div class="row justify-content-between flex-wrap-reverse">
-                        <div class="col-lg product__gallery_layout">
-                            <div class="product__gallery">
-                                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-                                class="swiper mySwiper2">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="product__gallery_layout">
+                        <div class="product__gallery">
+                            <div class="swiper mySwiper2">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <img src="../images/gallery_01.png" />
@@ -574,14 +586,16 @@
                                     </div>
                                 </div>
                                 <div class="swiper-button-next">
-                                    <svg width="29" height="13" viewBox="0 0 29 13"  xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M28.6374 7.28953C28.9655 6.96149 28.9655 6.42963 28.6374 6.10159L23.2917 0.755859C22.9637 0.427819 22.4318 0.427819 22.1038 0.755859C21.7757 1.0839 21.7757 1.61576 22.1038 1.9438L26.8555 6.69556L22.1038 11.4473C21.7757 11.7754 21.7757 12.3072 22.1038 12.6353C22.4318 12.9633 22.9637 12.9633 23.2917 12.6353L28.6374 7.28953ZM0.652161 7.53556H28.0435V5.85556H0.652161V7.53556Z"/>
-                                        </svg>
-                                        
+                                    <svg width="29" height="13" viewBox="0 0 29 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M28.6374 7.28953C28.9655 6.96149 28.9655 6.42963 28.6374 6.10159L23.2917 0.755859C22.9637 0.427819 22.4318 0.427819 22.1038 0.755859C21.7757 1.0839 21.7757 1.61576 22.1038 1.9438L26.8555 6.69556L22.1038 11.4473C21.7757 11.7754 21.7757 12.3072 22.1038 12.6353C22.4318 12.9633 22.9637 12.9633 23.2917 12.6353L28.6374 7.28953ZM0.652161 7.53556H28.0435V5.85556H0.652161V7.53556Z" />
+                                    </svg>
+
                                 </div>
                                 <div class="swiper-button-prev">
-                                    <svg width="29" height="13" viewBox="0 0 29 13"  xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.362568 5.71047C0.0345268 6.03851 0.0345268 6.57037 0.362568 6.89841L5.7083 12.2441C6.03633 12.5722 6.56819 12.5722 6.89623 12.2441C7.22428 11.9161 7.22428 11.3842 6.89623 11.0562L2.14448 6.30444L6.89623 1.55269C7.22428 1.22465 7.22428 0.692787 6.89623 0.364746C6.56819 0.036706 6.03633 0.036706 5.7083 0.364746L0.362568 5.71047ZM28.3478 5.46444L0.956537 5.46444V7.14444L28.3478 7.14444V5.46444Z" />
+                                    <svg width="29" height="13" viewBox="0 0 29 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.362568 5.71047C0.0345268 6.03851 0.0345268 6.57037 0.362568 6.89841L5.7083 12.2441C6.03633 12.5722 6.56819 12.5722 6.89623 12.2441C7.22428 11.9161 7.22428 11.3842 6.89623 11.0562L2.14448 6.30444L6.89623 1.55269C7.22428 1.22465 7.22428 0.692787 6.89623 0.364746C6.56819 0.036706 6.03633 0.036706 5.7083 0.364746L0.362568 5.71047ZM28.3478 5.46444L0.956537 5.46444V7.14444L28.3478 7.14444V5.46444Z" />
                                     </svg>
                                 </div>
                             </div>
@@ -619,111 +633,140 @@
                                     </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
-                        <div class="col-lg product__content">
-                            <h2 class="product__content__head text-start border-bottom-0">
-                                Сезонное предложение <br class="d-none d-lg-block">
-PINK ORCHID
-                            </h2>
-                            <p class="product__content__head_small">Орхидея с эвкалиптом, украшенная декоративной бумагой</p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="product__content">
+                        <h2 class="product__content__head text-start border-bottom-0">
+                            Сезонное предложение <br class="d-none d-lg-block">
+                            PINK ORCHID
+                        </h2>
+                        <p class="product__content__head_small">Орхидея с эвкалиптом, украшенная декоративной
+                            бумагой</p>
 
-                            <div class="bb__line"></div>
+                        <div class="bb__line"></div>
 
-                            <div class="product__content_info">
-                                <ul class="product__content_info_points">
-                                    <li>Орхидея - 1 ветка</li>
-                                    <li>Эвкалипт - 1 упаковка</li>
-                                    <li>Диаметр цветочной композиции - 25-30 см.</li>
-                                </ul>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h4 class="product__item_prize">
-                                        €30.00
-                                    </h4>
-                                <div class="product__item_notice d-block d-lg-none mb-0">Товар доступен с 07.08.2022</div>
-
+                        <div class="product__content_info">
+                            <ul class="product__content_info_points">
+                                <li>Орхидея - 1 ветка</li>
+                                <li>Эвкалипт - 1 упаковка</li>
+                                <li>Диаметр цветочной композиции - 25-30 см.</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="product__item_prize">
+                                    €30.00
+                                </h4>
+                                <div class="product__item_notice d-block d-lg-none mb-0">Товар доступен с 07.08.2022
                                 </div>
-                                <div class="product__item_add d-flex align-items-center flex-wrap">
-                                    <a href="#" class="product__item_add_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        ДОБАВИТЬ В КОРЗИНУ
-                                    </a>
-                                    <div class="product__item_add_counter product__pg">
-                                        <div class="frame">
-                                            <div class=" d-flex align-items-center justify-content-between">
-                                                  <div class="button col col-1">
-                                                      <button id="minus-btn">
-                                                        <svg width="9" height="1" viewBox="0 0 9 1"  xmlns="http://www.w3.org/2000/svg">
-                                                            <line y1="0.5" x2="9" y2="0.5" />
-                                                            </svg>
-                                                            
-                                                      </button>
-                                                  </div>
-                                                  <div class="number col col-2">
-                                                      <div id="count">0</div>
-                                                  </div>
-                                                  <div class="button col col-1">
-                                                      <button id="plus-btn">
-                                                        <svg width="10" height="10" viewBox="0 0 10 10"  xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M4.20259 5.49569H0V4.50431H4.20259V0H5.23707V4.50431H9.43966V5.49569H5.23707V10H4.20259V5.49569Z" />
-                                                            </svg>
-                                                            
-                                                      </button>
-                                                </div>
-                                              </div>
-                                          </div>
-                                        <style>
 
-                                        </style>
-                                        
-                                    </div>
-                                </div>
-                                <div class="product__item_notice d-none d-lg-block">Товар доступен с 07.08.2022</div>
-
-                                <div class="product__item_share d-none d-lg-flex">
-                                    <a  href="#" class="product__item_share_link">
-                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M14 6.71475L13.451 7.22574C13.5929 7.37817 13.7918 7.46475 14 7.46475C14.2082 7.46475 14.4071 7.37817 14.549 7.22574L14 6.71475ZM14.8607 5.79007L14.3117 5.27908L14.3117 5.27908L14.8607 5.79007ZM13.1393 5.79007L13.6883 5.27908V5.27908L13.1393 5.79007ZM4.53252 15.0369L3.98354 15.5479H3.98354L4.53252 15.0369ZM12.2786 23.359L12.8276 22.848L12.2786 23.359ZM15.7214 23.359L15.1724 22.848L15.7214 23.359ZM23.4675 15.0369L22.9185 14.5259L23.4675 15.0369ZM23.4675 5.79007L24.0165 5.27908L23.4675 5.79007ZM4.53253 5.79007L3.98354 5.27908L4.53253 5.79007ZM14.549 7.22574L15.4097 6.30106L14.3117 5.27908L13.451 6.20376L14.549 7.22574ZM12.5903 6.30107L13.451 7.22574L14.549 6.20376L13.6883 5.27908L12.5903 6.30107ZM3.98354 15.5479L11.7296 23.87L12.8276 22.848L5.08151 14.5259L3.98354 15.5479ZM16.2703 23.87L24.0165 15.5479L22.9185 14.5259L15.1724 22.848L16.2703 23.87ZM22.9185 6.30106C25.0272 8.56655 25.0272 12.2604 22.9185 14.5259L24.0165 15.5479C26.6612 12.7065 26.6612 8.12046 24.0165 5.27908L22.9185 6.30106ZM24.0165 5.27908C21.3431 2.40697 16.985 2.40697 14.3117 5.27908L15.4097 6.30106C17.4897 4.06631 20.8384 4.06631 22.9185 6.30106L24.0165 5.27908ZM5.08151 6.30106C7.16159 4.06631 10.5103 4.06631 12.5903 6.30107L13.6883 5.27908C11.015 2.40697 6.65686 2.40697 3.98354 5.27908L5.08151 6.30106ZM11.7296 23.87C12.977 25.21 15.023 25.21 16.2703 23.87L15.1724 22.848C14.5183 23.5507 13.4817 23.5507 12.8276 22.848L11.7296 23.87ZM3.98354 5.27908C1.33882 8.12046 1.33882 12.7065 3.98354 15.5479L5.08151 14.5259C2.97283 12.2604 2.97283 8.56655 5.08151 6.30106L3.98354 5.27908Z" fill="#6667AB"/>
-                                        </svg>
-                                    </a>
-                                    <a href="#" class="product__item_share_link">
-                                        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24 6.1875C24 7.94791 22.5729 9.375 20.8125 9.375V10.875C23.4013 10.875 25.5 8.77634 25.5 6.1875H24ZM17.625 6.1875C17.625 4.42709 19.0521 3 20.8125 3V1.5C18.2237 1.5 16.125 3.59867 16.125 6.1875H17.625ZM20.8125 3C22.5729 3 24 4.42709 24 6.1875H25.5C25.5 3.59867 23.4013 1.5 20.8125 1.5V3ZM24 20.8125C24 22.5729 22.5729 24 20.8125 24V25.5C23.4013 25.5 25.5 23.4013 25.5 20.8125H24ZM20.8125 24C19.0521 24 17.625 22.5729 17.625 20.8125H16.125C16.125 23.4013 18.2237 25.5 20.8125 25.5V24ZM20.8125 17.625C22.5729 17.625 24 19.0521 24 20.8125H25.5C25.5 18.2237 23.4013 16.125 20.8125 16.125V17.625ZM6.1875 16.6875C4.42709 16.6875 3 15.2604 3 13.5H1.5C1.5 16.0888 3.59867 18.1875 6.1875 18.1875V16.6875ZM3 13.5C3 11.7396 4.42709 10.3125 6.1875 10.3125V8.8125C3.59867 8.8125 1.5 10.9112 1.5 13.5H3ZM6.1875 10.3125C7.4343 10.3125 8.51529 11.0282 9.03952 12.0746L10.3806 11.4028C9.61197 9.86844 8.02373 8.8125 6.1875 8.8125V10.3125ZM9.03952 12.0746C9.25396 12.5027 9.375 12.9861 9.375 13.5H10.875C10.875 12.7476 10.6972 12.0347 10.3806 11.4028L9.03952 12.0746ZM9.375 13.5C9.375 14.0139 9.25396 14.4973 9.03952 14.9254L10.3806 15.5972C10.6972 14.9653 10.875 14.2524 10.875 13.5H9.375ZM9.03952 14.9254C8.51529 15.9718 7.4343 16.6875 6.1875 16.6875V18.1875C8.02373 18.1875 9.61197 17.1316 10.3806 15.5972L9.03952 14.9254ZM10.0455 12.4095L17.6253 8.61961L16.9545 7.27797L9.37467 11.0679L10.0455 12.4095ZM20.8125 9.375C19.5657 9.375 18.4847 8.65928 17.9605 7.61286L16.6194 8.28472C17.388 9.81906 18.9763 10.875 20.8125 10.875V9.375ZM17.9605 7.61286C17.746 7.1848 17.625 6.70137 17.625 6.1875H16.125C16.125 6.93985 16.3028 7.65284 16.6194 8.28472L17.9605 7.61286ZM17.6253 18.3804L10.0455 14.5905L9.37467 15.9321L16.9545 19.722L17.6253 18.3804ZM17.625 20.8125C17.625 20.2986 17.746 19.8152 17.9605 19.3871L16.6194 18.7153C16.3028 19.3472 16.125 20.0602 16.125 20.8125H17.625ZM17.9605 19.3871C18.4847 18.3407 19.5657 17.625 20.8125 17.625V16.125C18.9763 16.125 17.388 17.1809 16.6194 18.7153L17.9605 19.3871Z" fill="#6667AB"/>
-                                        </svg>
-                                    </a>
-                                </div>
-                                
                             </div>
+                            <div class="product__item_add d-flex align-items-center flex-wrap">
+                                <a href="#" class="product__item_add_btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    ДОБАВИТЬ В КОРЗИНУ
+                                </a>
+                                <div class="product__item_add_counter product__pg">
+                                    <div class="frame">
+                                        <div class=" d-flex align-items-center justify-content-between">
+                                            <div class="button col col-1">
+                                                <button id="minus-btn">
+                                                    <svg width="9" height="1" viewBox="0 0 9 1"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <line y1="0.5" x2="9" y2="0.5" />
+                                                    </svg>
+
+                                                </button>
+                                            </div>
+                                            <div class="number col col-2">
+                                                <div id="count">0</div>
+                                            </div>
+                                            <div class="button col col-1">
+                                                <button id="plus-btn">
+                                                    <svg width="10" height="10" viewBox="0 0 10 10"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M4.20259 5.49569H0V4.50431H4.20259V0H5.23707V4.50431H9.43966V5.49569H5.23707V10H4.20259V5.49569Z" />
+                                                    </svg>
+
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style>
+
+                                    </style>
+
+                                </div>
+                            </div>
+                            <div class="product__item_notice d-none d-lg-block">Товар доступен с 07.08.2022</div>
+
+                            <div class="product__item_share d-none d-lg-flex">
+                                <a href="#" class="product__item_share_link">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 6.71475L13.451 7.22574C13.5929 7.37817 13.7918 7.46475 14 7.46475C14.2082 7.46475 14.4071 7.37817 14.549 7.22574L14 6.71475ZM14.8607 5.79007L14.3117 5.27908L14.3117 5.27908L14.8607 5.79007ZM13.1393 5.79007L13.6883 5.27908V5.27908L13.1393 5.79007ZM4.53252 15.0369L3.98354 15.5479H3.98354L4.53252 15.0369ZM12.2786 23.359L12.8276 22.848L12.2786 23.359ZM15.7214 23.359L15.1724 22.848L15.7214 23.359ZM23.4675 15.0369L22.9185 14.5259L23.4675 15.0369ZM23.4675 5.79007L24.0165 5.27908L23.4675 5.79007ZM4.53253 5.79007L3.98354 5.27908L4.53253 5.79007ZM14.549 7.22574L15.4097 6.30106L14.3117 5.27908L13.451 6.20376L14.549 7.22574ZM12.5903 6.30107L13.451 7.22574L14.549 6.20376L13.6883 5.27908L12.5903 6.30107ZM3.98354 15.5479L11.7296 23.87L12.8276 22.848L5.08151 14.5259L3.98354 15.5479ZM16.2703 23.87L24.0165 15.5479L22.9185 14.5259L15.1724 22.848L16.2703 23.87ZM22.9185 6.30106C25.0272 8.56655 25.0272 12.2604 22.9185 14.5259L24.0165 15.5479C26.6612 12.7065 26.6612 8.12046 24.0165 5.27908L22.9185 6.30106ZM24.0165 5.27908C21.3431 2.40697 16.985 2.40697 14.3117 5.27908L15.4097 6.30106C17.4897 4.06631 20.8384 4.06631 22.9185 6.30106L24.0165 5.27908ZM5.08151 6.30106C7.16159 4.06631 10.5103 4.06631 12.5903 6.30107L13.6883 5.27908C11.015 2.40697 6.65686 2.40697 3.98354 5.27908L5.08151 6.30106ZM11.7296 23.87C12.977 25.21 15.023 25.21 16.2703 23.87L15.1724 22.848C14.5183 23.5507 13.4817 23.5507 12.8276 22.848L11.7296 23.87ZM3.98354 5.27908C1.33882 8.12046 1.33882 12.7065 3.98354 15.5479L5.08151 14.5259C2.97283 12.2604 2.97283 8.56655 5.08151 6.30106L3.98354 5.27908Z"
+                                            fill="#6667AB" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="product__item_share_link">
+                                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24 6.1875C24 7.94791 22.5729 9.375 20.8125 9.375V10.875C23.4013 10.875 25.5 8.77634 25.5 6.1875H24ZM17.625 6.1875C17.625 4.42709 19.0521 3 20.8125 3V1.5C18.2237 1.5 16.125 3.59867 16.125 6.1875H17.625ZM20.8125 3C22.5729 3 24 4.42709 24 6.1875H25.5C25.5 3.59867 23.4013 1.5 20.8125 1.5V3ZM24 20.8125C24 22.5729 22.5729 24 20.8125 24V25.5C23.4013 25.5 25.5 23.4013 25.5 20.8125H24ZM20.8125 24C19.0521 24 17.625 22.5729 17.625 20.8125H16.125C16.125 23.4013 18.2237 25.5 20.8125 25.5V24ZM20.8125 17.625C22.5729 17.625 24 19.0521 24 20.8125H25.5C25.5 18.2237 23.4013 16.125 20.8125 16.125V17.625ZM6.1875 16.6875C4.42709 16.6875 3 15.2604 3 13.5H1.5C1.5 16.0888 3.59867 18.1875 6.1875 18.1875V16.6875ZM3 13.5C3 11.7396 4.42709 10.3125 6.1875 10.3125V8.8125C3.59867 8.8125 1.5 10.9112 1.5 13.5H3ZM6.1875 10.3125C7.4343 10.3125 8.51529 11.0282 9.03952 12.0746L10.3806 11.4028C9.61197 9.86844 8.02373 8.8125 6.1875 8.8125V10.3125ZM9.03952 12.0746C9.25396 12.5027 9.375 12.9861 9.375 13.5H10.875C10.875 12.7476 10.6972 12.0347 10.3806 11.4028L9.03952 12.0746ZM9.375 13.5C9.375 14.0139 9.25396 14.4973 9.03952 14.9254L10.3806 15.5972C10.6972 14.9653 10.875 14.2524 10.875 13.5H9.375ZM9.03952 14.9254C8.51529 15.9718 7.4343 16.6875 6.1875 16.6875V18.1875C8.02373 18.1875 9.61197 17.1316 10.3806 15.5972L9.03952 14.9254ZM10.0455 12.4095L17.6253 8.61961L16.9545 7.27797L9.37467 11.0679L10.0455 12.4095ZM20.8125 9.375C19.5657 9.375 18.4847 8.65928 17.9605 7.61286L16.6194 8.28472C17.388 9.81906 18.9763 10.875 20.8125 10.875V9.375ZM17.9605 7.61286C17.746 7.1848 17.625 6.70137 17.625 6.1875H16.125C16.125 6.93985 16.3028 7.65284 16.6194 8.28472L17.9605 7.61286ZM17.6253 18.3804L10.0455 14.5905L9.37467 15.9321L16.9545 19.722L17.6253 18.3804ZM17.625 20.8125C17.625 20.2986 17.746 19.8152 17.9605 19.3871L16.6194 18.7153C16.3028 19.3472 16.125 20.0602 16.125 20.8125H17.625ZM17.9605 19.3871C18.4847 18.3407 19.5657 17.625 20.8125 17.625V16.125C18.9763 16.125 17.388 17.1809 16.6194 18.7153L17.9605 19.3871Z"
+                                            fill="#6667AB" />
+                                    </svg>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row mx-auto">
-                <div class="col-md-10 col-11 px-md-5 px-3 mx-auto">
+            <div class="row">
+                <div class="col-md-12">
                     <div class="hide__faq d-block d-lg-none">
                         <div class="accordion accordion-flush bb__line" id="accordionFlushExample">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed shadow-none bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                 Важная информация
-                                </button>
-                              </h2>
-                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Цветочные фотографии являются иллюстративными, потому что цветы являются сезонными и не доступны круглый год. По этой причине мы не можем гарантировать именно такие же цветы, показанные на фотографии. При необходимости цветы будут заменены цветами, имеющимися в магазине, в цветах, доступных по усмотрению флориста. Букет цветов будет выполнен с соблюдением стиля и цветовой гаммы букета. Если вы хотите уточнить или получить именно эти цветы, которые прямо показаны на фотографии в ваших предпочтительных цветах - пожалуйста, свяжитесь с нами по телефону +371 20 121 227
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed shadow-none bg-transparent" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Важная информация
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Цветочные фотографии являются иллюстративными, потому что цветы являются
+                                        сезонными и не доступны круглый год. По этой причине мы не можем гарантировать
+                                        именно такие же цветы, показанные на фотографии. При необходимости цветы будут
+                                        заменены цветами, имеющимися в магазине, в цветах, доступных по усмотрению
+                                        флориста. Букет цветов будет выполнен с соблюдением стиля и цветовой гаммы
+                                        букета. Если вы хотите уточнить или получить именно эти цветы, которые прямо
+                                        показаны на фотографии в ваших предпочтительных цветах - пожалуйста, свяжитесь с
+                                        нами по телефону +371 20 121 227
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                            
-                          </div>
+
+                        </div>
                     </div>
                     <div class="d-flex product__point_layout">
                         <div class="product__point_para">
                             <p class="product__point_para_text">
-                                Цветочные фотографии являются иллюстративными, потому что цветы являются сезонными и не доступны круглый год. По этой причине мы не можем гарантировать именно такие же цветы, показанные на фотографии. При необходимости цветы будут заменены цветами, имеющимися в магазине, в цветах, доступных по усмотрению флориста. Букет цветов будет выполнен с соблюдением стиля и цветовой гаммы букета. <span>Если вы хотите уточнить или получить именно эти цветы, которые прямо показаны на фотографии в ваших предпочтительных цветах - пожалуйста, свяжитесь с нами по телефону +371 20 121 227</span>
+                                Цветочные фотографии являются иллюстративными, потому что цветы являются сезонными и не
+                                доступны круглый год. По этой причине мы не можем гарантировать именно такие же цветы,
+                                показанные на фотографии. При необходимости цветы будут заменены цветами, имеющимися в
+                                магазине, в цветах, доступных по усмотрению флориста. Букет цветов будет выполнен с
+                                соблюдением стиля и цветовой гаммы букета. <span>Если вы хотите уточнить или получить
+                                    именно эти цветы, которые прямо показаны на фотографии в ваших предпочтительных
+                                    цветах - пожалуйста, свяжитесь с нами по телефону +371 20 121 227</span>
                             </p>
                         </div>
-                        
+
                         <div class="">
                             <ul class="product__content_info_points ">
                                 <li>Категория: Композиции и букеты</li>
@@ -741,141 +784,173 @@ PINK ORCHID
     <!-- ======================== -->
     <!-- ======================== -->
     <section class="minimum__cards">
-        <div class="container-fluid">
-            <div class="row mx-auto">
-              <div class="col-md-10 col-11 px-md-5 px-3 mx-auto">
-                <h3 class="minimum__cards_tittle">Вместе с этим часто покупают:</h3>
-                <div class="bb__line"></div>
-                <div class="minimum__cards_row">
-                    <div class="row w-100 justify-content-between">
-                        <div class="col-lg-3 col-6">
-                            <div class="product__card">
-                                <div class="product__card_img">
-                                    <img class="w-100" src="../images/product__img.webp" alt="">
-                                <div class="product__card_template">
-                                    <div class="product__card_green_badge">
-                                        Доступно с 21.08
+        <div class="container-fluid my__container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="minimum__cards_tittle">Вместе с этим часто покупают:</h3>
+                    <div class="bb__line"></div>
+                    <div class="minimum__cards_row">
+                        <div class="row w-100 justify-content-between">
+                            <div class="col-lg-3 col-6">
+                                <div class="product__card">
+                                    <div class="product__card_img">
+                                        <img class="w-100" src="../images/product__img.webp" alt="">
+                                        <div class="product__card_template">
+                                            <div class="product__card_green_badge">
+                                                Доступно с 21.08
+                                            </div>
+                                            <div>
+                                                <a href="#" class="product__card_white_badge b__space">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z">
+                                                        </path>
+                                                        <path
+                                                            d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                                <a href="#" class="product__card_white_badge">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <a href="#" class="product__card_white_badge b__space">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z"></path>
-                                                <path d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z"></path>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="product__card_white_badge">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z"></path>
-                                            </svg>
-                                        </a>
+                                    <div class="product__card_divider"></div>
+                                    <div class="product__card_content">
+                                        <div class="product__card_content_tittle">Jummilia</div>
+                                        <div class="product__card_content_prize">€40.00</div>
                                     </div>
-                                </div>
-                                </div>
-                                <div class="product__card_divider"></div>
-                                <div class="product__card_content">
-                                     <div class="product__card_content_tittle">Jummilia</div>
-                                     <div class="product__card_content_prize">€40.00</div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="product__card">
-                                <div class="product__card_img">
-                                    <img class="w-100" src="../images/product__img.webp" alt="">
-                                <div class="product__card_template">
-                                    <div class="product__card_green_badge">
-                                        Доступно с 21.08
+                            <div class="col-lg-3 col-6">
+                                <div class="product__card">
+                                    <div class="product__card_img">
+                                        <img class="w-100" src="../images/product__img.webp" alt="">
+                                        <div class="product__card_template">
+                                            <div class="product__card_green_badge">
+                                                Доступно с 21.08
+                                            </div>
+                                            <div>
+                                                <a href="#" class="product__card_white_badge b__space">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z">
+                                                        </path>
+                                                        <path
+                                                            d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                                <a href="#" class="product__card_white_badge">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <a href="#" class="product__card_white_badge b__space">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z"></path>
-                                                <path d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z"></path>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="product__card_white_badge">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z"></path>
-                                            </svg>
-                                        </a>
+                                    <div class="product__card_divider"></div>
+                                    <div class="product__card_content">
+                                        <div class="product__card_content_tittle">Jummilia</div>
+                                        <div class="product__card_content_prize">€40.00</div>
                                     </div>
-                                </div>
-                                </div>
-                                <div class="product__card_divider"></div>
-                                <div class="product__card_content">
-                                     <div class="product__card_content_tittle">Jummilia</div>
-                                     <div class="product__card_content_prize">€40.00</div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="product__card">
-                                <div class="product__card_img">
-                                    <img class="w-100" src="../images/product__img.webp" alt="">
-                                <div class="product__card_template">
-                                    <div class="product__card_green_badge">
-                                        Доступно с 21.08
+                            <div class="col-lg-3 col-6">
+                                <div class="product__card">
+                                    <div class="product__card_img">
+                                        <img class="w-100" src="../images/product__img.webp" alt="">
+                                        <div class="product__card_template">
+                                            <div class="product__card_green_badge">
+                                                Доступно с 21.08
+                                            </div>
+                                            <div>
+                                                <a href="#" class="product__card_white_badge b__space">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z">
+                                                        </path>
+                                                        <path
+                                                            d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                                <a href="#" class="product__card_white_badge">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <a href="#" class="product__card_white_badge b__space">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z"></path>
-                                                <path d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z"></path>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="product__card_white_badge">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z"></path>
-                                            </svg>
-                                        </a>
+                                    <div class="product__card_divider"></div>
+                                    <div class="product__card_content">
+                                        <div class="product__card_content_tittle">Jummilia</div>
+                                        <div class="product__card_content_prize">€40.00</div>
                                     </div>
-                                </div>
-                                </div>
-                                <div class="product__card_divider"></div>
-                                <div class="product__card_content">
-                                     <div class="product__card_content_tittle">Jummilia</div>
-                                     <div class="product__card_content_prize">€40.00</div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="product__card">
-                                <div class="product__card_img">
-                                    <img class="w-100" src="../images/product__img.webp" alt="">
-                                <div class="product__card_template">
-                                    <div class="product__card_green_badge">
-                                        Доступно с 21.08
+                            <div class="col-lg-3 col-6">
+                                <div class="product__card">
+                                    <div class="product__card_img">
+                                        <img class="w-100" src="../images/product__img.webp" alt="">
+                                        <div class="product__card_template">
+                                            <div class="product__card_green_badge">
+                                                Доступно с 21.08
+                                            </div>
+                                            <div>
+                                                <a href="#" class="product__card_white_badge b__space">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z">
+                                                        </path>
+                                                        <path
+                                                            d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                                <a href="#" class="product__card_white_badge">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <a href="#" class="product__card_white_badge b__space">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.75 5.25L7.5 5.25L6.75 5.25ZM7.5 4.5C7.5 4.08579 7.16421 3.75 6.75 3.75C6.33579 3.75 6 4.08579 6 4.5L7.5 4.5ZM12 4.5C12 4.08579 11.6642 3.75 11.25 3.75C10.8358 3.75 10.5 4.08579 10.5 4.5H12ZM11.25 5.25L12 5.25V5.25H11.25ZM9 7.5L9 8.25L9 7.5ZM7.5 5.25L7.5 4.5L6 4.5L6 5.25L7.5 5.25ZM10.5 4.5V5.25H12V4.5H10.5ZM9 6.75C8.17157 6.75 7.5 6.07843 7.5 5.25L6 5.25C6 6.90685 7.34315 8.25 9 8.25L9 6.75ZM9 8.25C10.6569 8.25 12 6.90685 12 5.25L10.5 5.25C10.5 6.07843 9.82843 6.75 9 6.75L9 8.25Z"></path>
-                                                <path d="M14.6678 4.7568L15.4076 4.6335L14.6678 4.7568ZM15.9178 12.2568L15.178 12.3801V12.3801L15.9178 12.2568ZM3.33221 4.7568L2.59241 4.6335L3.33221 4.7568ZM2.08221 12.2568L2.82201 12.3801L2.08221 12.2568ZM6.29139 3H11.7086V1.5H6.29139V3ZM13.928 4.8801L15.178 12.3801L16.6576 12.1335L15.4076 4.6335L13.928 4.8801ZM12.9586 15H5.04139V16.5H12.9586V15ZM2.59241 4.6335L1.34241 12.1335L2.82201 12.3801L4.07201 4.8801L2.59241 4.6335ZM6.29139 1.5C4.45824 1.5 2.89378 2.8253 2.59241 4.6335L4.07201 4.8801C4.25283 3.79518 5.1915 3 6.29139 3V1.5ZM11.7086 3C12.8085 3 13.7472 3.79518 13.928 4.8801L15.4076 4.6335C15.1062 2.8253 13.5418 1.5 11.7086 1.5V3ZM15.178 12.3801C15.4066 13.7515 14.349 15 12.9586 15V16.5C15.2759 16.5 17.0386 14.4192 16.6576 12.1335L15.178 12.3801ZM5.04139 15C3.65103 15 2.59343 13.7515 2.82201 12.3801L1.34241 12.1335C0.961457 14.4192 2.72412 16.5 5.04139 16.5V15Z"></path>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="product__card_white_badge">
-                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9 4.14317L8.45101 4.65416C8.59289 4.80659 8.79176 4.89317 9 4.89317C9.20824 4.89317 9.40711 4.80659 9.54899 4.65416L9 4.14317ZM9.57378 3.52672L9.0248 3.01572V3.01573L9.57378 3.52672ZM8.42621 3.52672L8.9752 3.01573V3.01573L8.42621 3.52672ZM2.68835 9.69124L2.13936 10.2022H2.13936L2.68835 9.69124ZM7.85243 15.2393L8.40141 14.7283L7.85243 15.2393ZM10.1476 15.2393L9.59858 14.7283L10.1476 15.2393ZM15.3116 9.69124L14.7627 9.18025L15.3116 9.69124ZM15.3116 3.52672L15.8606 3.01572V3.01572L15.3116 3.52672ZM2.68835 3.52671L2.13936 3.01572L2.68835 3.52671ZM9.54899 4.65416L10.1228 4.03771L9.0248 3.01573L8.45101 3.63218L9.54899 4.65416ZM7.87722 4.03771L8.45101 4.65416L9.54899 3.63218L8.9752 3.01573L7.87722 4.03771ZM2.13936 10.2022L7.30344 15.7503L8.40141 14.7283L3.23734 9.18025L2.13936 10.2022ZM10.6966 15.7503L15.8606 10.2022L14.7627 9.18025L9.59858 14.7283L10.6966 15.7503ZM14.7627 4.03771C16.0791 5.45205 16.0791 7.76591 14.7627 9.18025L15.8606 10.2022C17.7131 8.212 17.7131 5.00596 15.8606 3.01572L14.7627 4.03771ZM15.8606 3.01572C13.9795 0.994759 10.9059 0.994758 9.0248 3.01572L10.1228 4.03771C11.4106 2.6541 13.4748 2.6541 14.7627 4.03771L15.8606 3.01572ZM3.23734 4.03771C4.52518 2.6541 6.58938 2.6541 7.87722 4.03771L8.9752 3.01573C7.09411 0.994759 4.02045 0.994758 2.13936 3.01572L3.23734 4.03771ZM7.30344 15.7503C8.23385 16.7499 9.76615 16.7499 10.6966 15.7503L9.59858 14.7283C9.26142 15.0906 8.73858 15.0906 8.40141 14.7283L7.30344 15.7503ZM2.13936 3.01572C0.28688 5.00595 0.286879 8.212 2.13936 10.2022L3.23734 9.18025C1.92089 7.76591 1.92089 5.45205 3.23734 4.03771L2.13936 3.01572Z"></path>
-                                            </svg>
-                                        </a>
+                                    <div class="product__card_divider"></div>
+                                    <div class="product__card_content">
+                                        <div class="product__card_content_tittle">Jummilia</div>
+                                        <div class="product__card_content_prize">€40.00</div>
                                     </div>
-                                </div>
-                                </div>
-                                <div class="product__card_divider"></div>
-                                <div class="product__card_content">
-                                     <div class="product__card_content_tittle">Jummilia</div>
-                                     <div class="product__card_content_prize">€40.00</div>
                                 </div>
                             </div>
-                        </div>
 
-                        
 
+
+                        </div>
                     </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
     </section>
     <!-- ======================== -->
     <!-- ======================== -->
@@ -891,7 +966,7 @@ PINK ORCHID
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="footer__logo">
                                 <a href="#"><img class="w-100" src="../images/white__logo.svg" alt=""></a>
-    
+
                             </div>
                             <ul class="footer__media_link d-flex d-lg-none">
                                 <li><a href="#"><img class="w-100" src="../images/facebook.svg" alt=""></a></li>
@@ -906,7 +981,7 @@ PINK ORCHID
                             <li><a href="#"><img class="w-100" src="../images/visa.svg" alt=""></a></li>
                             <li><a href="#"><img class="w-100" src="../images/master.svg" alt=""></a></li>
                         </ul>
-    
+
                     </div>
                     <div class="col-lg-3 px-0 footer__inner_m">
                         <div class="footer__menu">КАТЕГОРИИ</div>
@@ -957,10 +1032,11 @@ PINK ORCHID
                         <div class="d-flex justify-content-between w-100 my-5">
                             <div class="footer__invent">Florex, 2022</div>
                             <ul class="footer__menu_list d-flex align-items-end">
-                                <li class="me-0 ms-auto text-end"><a class="text-white" href="#">Разработка сайта</a></li>
+                                <li class="me-0 ms-auto text-end"><a class="text-white" href="#">Разработка сайта</a>
+                                </li>
                             </ul>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
@@ -969,67 +1045,46 @@ PINK ORCHID
 
     <!-- MOADAL -->
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn shadow-none ms-auto" data-bs-dismiss="modal" aria-label="Close">
-            <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.50913 1L26.71 26.2009M1 26.2009L26.2009 1" stroke="#6667AB"/>
-                </svg>
-                
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3>Ссылка скопирована <br>
-            в буфер обмена</h3>
-            <p>
-                www.florexshop.lv/category/offers/pink-orchid
-            </p>
-            <div class="product__item_add d-flex justify-content-center mb-md-5 pb-5">
-                <a href="#" class="product__item_add_btn mx-auto">
-                    СКОПИРОВАТЬ ЕЩЕ РАЗ
-                </a>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn shadow-none ms-auto" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.50913 1L26.71 26.2009M1 26.2009L26.2009 1" stroke="#6667AB" />
+                        </svg>
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>Ссылка скопирована <br>
+                        в буфер обмена</h3>
+                    <p>
+                        www.florexshop.lv/category/offers/pink-orchid
+                    </p>
+                    <div class="product__item_add d-flex justify-content-center mb-md-5 pb-5">
+                        <a href="#" class="product__item_add_btn mx-auto">
+                            СКОПИРОВАТЬ ЕЩЕ РАЗ
+                        </a>
+                    </div>
+                </div>
+
             </div>
-      </div>
-      
+        </div>
     </div>
-  </div>
-</div>
 
 
-
+    <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/ion.rangeSlider.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
     <script src="../js/main.js"></script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 10,
-            slidesPerView: 4,
-            freeMode: true,
-            watchSlidesProgress: true,
-        });
-        var swiper2 = new Swiper(".mySwiper2", {
-            spaceBetween: 10,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            thumbs: {
-                swiper: swiper,
-            },
-        });
-    </script>
 
 
 </body>
